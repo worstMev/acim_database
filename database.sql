@@ -5,7 +5,7 @@
 -- Dumped from database version 13.3
 -- Dumped by pg_dump version 13.3
 
--- Started on 2021-10-08 14:23:35
+-- Started on 2021-10-25 12:28:23
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
@@ -1840,18 +1840,24 @@ fec0af71-5541-40e1-93ad-033ad5fb2fa0	f8bd75fe-251a-4693-bec9-c7982bddaa65	2021-0
 68db45ca-29ad-483d-b8e5-52b629d24d80	084dd9cc-b451-46b7-9b63-75b1bb66a977	2021-10-01 09:10:13.6+00
 237451bc-067e-4c61-ae8d-9c5fe93b49ce	084dd9cc-b451-46b7-9b63-75b1bb66a977	2021-10-07 11:49:59.987+00
 fec0af71-5541-40e1-93ad-033ad5fb2fa0	084dd9cc-b451-46b7-9b63-75b1bb66a977	2021-10-07 16:19:36.102+00
-68db45ca-29ad-483d-b8e5-52b629d24d80	e5b55dea-d63b-4d02-89af-1b011ff81c8e	\N
 83a31293-3fbc-4e32-8814-0421fae2b491	e5b55dea-d63b-4d02-89af-1b011ff81c8e	\N
 fec0af71-5541-40e1-93ad-033ad5fb2fa0	e5b55dea-d63b-4d02-89af-1b011ff81c8e	2021-10-07 16:36:15.21+00
 237451bc-067e-4c61-ae8d-9c5fe93b49ce	e5b55dea-d63b-4d02-89af-1b011ff81c8e	2021-10-08 06:52:37.103+00
 fec0af71-5541-40e1-93ad-033ad5fb2fa0	4b608552-20d9-4589-b999-3f7db3bc42f6	\N
-68db45ca-29ad-483d-b8e5-52b629d24d80	4b608552-20d9-4589-b999-3f7db3bc42f6	\N
 83a31293-3fbc-4e32-8814-0421fae2b491	4b608552-20d9-4589-b999-3f7db3bc42f6	\N
 fec0af71-5541-40e1-93ad-033ad5fb2fa0	f9b8fa8b-5434-4702-907e-f11eaaf91722	\N
-68db45ca-29ad-483d-b8e5-52b629d24d80	f9b8fa8b-5434-4702-907e-f11eaaf91722	\N
 83a31293-3fbc-4e32-8814-0421fae2b491	f9b8fa8b-5434-4702-907e-f11eaaf91722	\N
 237451bc-067e-4c61-ae8d-9c5fe93b49ce	4b608552-20d9-4589-b999-3f7db3bc42f6	2021-10-08 07:11:15.122+00
 237451bc-067e-4c61-ae8d-9c5fe93b49ce	f9b8fa8b-5434-4702-907e-f11eaaf91722	2021-10-08 07:11:15.122+00
+68db45ca-29ad-483d-b8e5-52b629d24d80	8d6cee32-e7cb-4bd4-a170-53708fcc85ae	2021-10-25 09:17:33.335+00
+fec0af71-5541-40e1-93ad-033ad5fb2fa0	1e118705-0930-4cfe-81e5-9b238cdfc1e3	\N
+83a31293-3fbc-4e32-8814-0421fae2b491	1e118705-0930-4cfe-81e5-9b238cdfc1e3	\N
+237451bc-067e-4c61-ae8d-9c5fe93b49ce	1e118705-0930-4cfe-81e5-9b238cdfc1e3	\N
+68db45ca-29ad-483d-b8e5-52b629d24d80	e5b55dea-d63b-4d02-89af-1b011ff81c8e	2021-10-25 09:18:12.987+00
+68db45ca-29ad-483d-b8e5-52b629d24d80	4b608552-20d9-4589-b999-3f7db3bc42f6	2021-10-25 09:18:12.987+00
+68db45ca-29ad-483d-b8e5-52b629d24d80	f9b8fa8b-5434-4702-907e-f11eaaf91722	2021-10-25 09:18:12.987+00
+68db45ca-29ad-483d-b8e5-52b629d24d80	1e118705-0930-4cfe-81e5-9b238cdfc1e3	2021-10-25 09:18:12.987+00
+237451bc-067e-4c61-ae8d-9c5fe93b49ce	b38020d0-7777-4009-97d7-7853b9fa17be	2021-10-25 09:18:51.575+00
 \.
 
 
@@ -1895,6 +1901,7 @@ a513e45f-fb2a-4826-851a-cff154f4fc86	c150d823-8c9b-4057-b01a-b35c0fb0e519	2021-0
 dbaa1b2d-6135-421f-ace8-a83dd2e3e62f	492a2c81-3ede-4a95-9964-d465da82578f	2021-08-24	2021-08-25
 7d0136ca-f6b9-4242-968b-e84cb6cb410f	15adcc98-67fd-4df0-a4b0-6ac9f3de1235	2021-07-19	2021-07-21
 ce356901-45d2-48d7-9577-8805f371b5e5	3d251eea-a701-4486-8f86-3c8927753672	2021-10-08	2021-10-09
+9083ca04-dde9-4908-8551-e3b5c6dcda93	99cb2741-16f2-44d0-9a20-831b4fc3fc19	2021-10-25	2021-10-26
 \.
 
 
@@ -1948,6 +1955,7 @@ dbaa1b2d-6135-421f-ace8-a83dd2e3e62f	48aa0db2-7290-4fda-959f-c77fe815b6ac
 7d0136ca-f6b9-4242-968b-e84cb6cb410f	7648255d-5019-418d-b552-70cc258e9e09	
 7d0136ca-f6b9-4242-968b-e84cb6cb410f	1187acbb-861b-421b-9070-6f0b1b34e8ac	
 ce356901-45d2-48d7-9577-8805f371b5e5	48aa0db2-7290-4fda-959f-c77fe815b6ac	
+9083ca04-dde9-4908-8551-e3b5c6dcda93	48aa0db2-7290-4fda-959f-c77fe815b6ac	
 \.
 
 
@@ -2015,7 +2023,6 @@ bf6529d7-2c88-4e96-b272-f4eaf7e4ace8	68db45ca-29ad-483d-b8e5-52b629d24d80	4bcdac
 3a07a184-27f1-4ff0-88e5-4abdccc42c38	68db45ca-29ad-483d-b8e5-52b629d24d80	\N	\N	6b3b2f07-253a-4066-b5ca-96d93a149149	aa7bba1c-3a84-4ab7-8347-61ee28cc4ab6	9c273e08-6860-4864-9f18-ce9751fca289	ND	\N	2021-08-17 05:00:00+00	2021-08-17 05:00:00+00	2021-08-16 12:37:32.125+00	f	t	\N
 94bb90a6-c2b4-474b-86a7-a24d108ac848	68db45ca-29ad-483d-b8e5-52b629d24d80	\N	\N	6b3b2f07-253a-4066-b5ca-96d93a149149	aa7bba1c-3a84-4ab7-8347-61ee28cc4ab6	bba2774e-9aa9-40c6-ac79-af4172a8bcc7	ND	\N	2021-08-20 05:00:00+00	2021-08-20 05:00:00+00	2021-08-17 05:48:24.925+00	f	t	\N
 94f78e88-8392-4525-b4eb-56ea6ea1c35d	68db45ca-29ad-483d-b8e5-52b629d24d80	\N	\N	62255b2b-1028-4817-848b-2be1c74bd2fb	cf6266a8-22f0-43ee-89e0-8e9f38f22dde	94bb90a6-c2b4-474b-86a7-a24d108ac848	ND	\N	2021-08-21 05:00:00+00	\N	\N	f	f	\N
-a98cb359-3692-4c86-90a0-92b48a8cb786	237451bc-067e-4c61-ae8d-9c5fe93b49ce	\N	\N	4d1287b6-5268-4cf7-a2f8-1deab7c474fc	cf6266a8-22f0-43ee-89e0-8e9f38f22dde	\N	ND	\N	2021-08-21 05:00:00+00	\N	\N	f	f	\N
 16ff5c5e-3842-4a1e-86a2-d2afb02b8b1d	237451bc-067e-4c61-ae8d-9c5fe93b49ce	\N	\N	6b3b2f07-253a-4066-b5ca-96d93a149149	aa7bba1c-3a84-4ab7-8347-61ee28cc4ab6	\N	ND	\N	2021-08-20 05:00:00.632+00	2021-08-20 09:34:02.502+00	2021-08-20 09:44:02.502+00	t	t	\N
 0e0e905a-8f12-440e-addc-e3da75271388	237451bc-067e-4c61-ae8d-9c5fe93b49ce	\N	\N	6b3b2f07-253a-4066-b5ca-96d93a149149	aa7bba1c-3a84-4ab7-8347-61ee28cc4ab6	\N	ND	\N	2021-08-20 08:00:00.354+00	2021-08-20 10:30:50.964+00	2021-08-20 10:40:50.964+00	f	t	\N
 6a7b9926-76b7-4c1b-81a9-1bf5e07fe0b0	237451bc-067e-4c61-ae8d-9c5fe93b49ce	\N	\N	62255b2b-1028-4817-848b-2be1c74bd2fb	a768355e-3cd2-497c-b579-d4e184b61298	0e0e905a-8f12-440e-addc-e3da75271388	ND	\N	2021-08-20 05:00:00.052+00	2021-08-20 10:39:35.099+00	2021-08-20 10:49:35.099+00	f	t	\N
@@ -2023,8 +2030,6 @@ a98cb359-3692-4c86-90a0-92b48a8cb786	237451bc-067e-4c61-ae8d-9c5fe93b49ce	\N	\N	
 c07f7d51-c337-404d-ae77-4858f9ff23d2	237451bc-067e-4c61-ae8d-9c5fe93b49ce	643a229e-ad6b-4087-be70-a4d8e624f325	7ebec45d-2197-4d91-87a7-7998845016cd	4d1287b6-5268-4cf7-a2f8-1deab7c474fc	cf6266a8-22f0-43ee-89e0-8e9f38f22dde	\N	Resoudre probleme : plantage ordinateur -- 222	\N	2021-08-24 05:00:00+00	2021-08-23 06:13:49.415+00	2021-08-23 06:23:49.415+00	t	t	\N
 2cbae466-36ad-4391-aa48-b70b0ce9f3b2	237451bc-067e-4c61-ae8d-9c5fe93b49ce	296f4a1a-0aaf-4fb9-ac73-883ddba5e45b	48aa0db2-7290-4fda-959f-c77fe815b6ac	6b3b2f07-253a-4066-b5ca-96d93a149149	aa7bba1c-3a84-4ab7-8347-61ee28cc4ab6	\N	Resoudre probleme : plantage ordinateur -- 111	sauvegarde donne;reinstallation	2021-08-26 05:00:00+00	2021-08-26 05:00:00+00	2021-08-23 06:03:39.499+00	t	t	\N
 41fa4608-ea97-42f7-a399-7dd62194f9a5	237451bc-067e-4c61-ae8d-9c5fe93b49ce	\N	\N	6b3b2f07-253a-4066-b5ca-96d93a149149	aa7bba1c-3a84-4ab7-8347-61ee28cc4ab6	\N	ND	\N	2021-08-20 05:00:00.281+00	2021-08-23 06:18:06.217+00	2021-08-23 06:28:06.217+00	f	t	\N
-43412bb9-3255-40bb-8784-5b300dfdde52	237451bc-067e-4c61-ae8d-9c5fe93b49ce	\N	\N	6b3b2f07-253a-4066-b5ca-96d93a149149	a768355e-3cd2-497c-b579-d4e184b61298	41fa4608-ea97-42f7-a399-7dd62194f9a5	ND	\N	2021-08-24 05:00:00+00	\N	\N	f	f	\N
-f4363941-6517-45e8-b629-10baec64305a	237451bc-067e-4c61-ae8d-9c5fe93b49ce	\N	\N	6b3b2f07-253a-4066-b5ca-96d93a149149	cf6266a8-22f0-43ee-89e0-8e9f38f22dde	\N	ND	\N	2021-08-23 07:00:00+00	\N	\N	f	f	\N
 1fc3d63d-3eb3-4c85-9b60-fe5311215ae7	237451bc-067e-4c61-ae8d-9c5fe93b49ce	79480380-65cb-41a8-a3ec-16299a266db2	\N	6b3b2f07-253a-4066-b5ca-96d93a149149	aa7bba1c-3a84-4ab7-8347-61ee28cc4ab6	\N	 reponse a un notification de user1 , tsy mandeha ny connexion - 111 - tres urgent	\N	2021-08-23 10:36:52.081+00	2021-08-23 10:37:34.72+00	2021-08-23 10:37:40.735+00	t	t	\N
 a4794380-66b6-4b86-ac49-f678be0dad22	237451bc-067e-4c61-ae8d-9c5fe93b49ce	\N	\N	6b3b2f07-253a-4066-b5ca-96d93a149149	aa7bba1c-3a84-4ab7-8347-61ee28cc4ab6	\N	 reponse a un notification de user1 , tsy mandeha ny imprimante - 111 - tres urgent	\N	2021-08-23 10:59:52.358+00	2021-08-23 10:50:10.897+00	2021-08-23 11:00:10.897+00	f	t	\N
 55d10d6d-da11-4557-baf3-54b22ab18fb1	237451bc-067e-4c61-ae8d-9c5fe93b49ce	\N	\N	62255b2b-1028-4817-848b-2be1c74bd2fb	cf6266a8-22f0-43ee-89e0-8e9f38f22dde	\N	ND	\N	2021-08-20 09:11:38.95+00	2021-08-31 20:15:20.16+00	2021-08-31 20:25:20.16+00	f	t	\N
@@ -2037,56 +2042,110 @@ e70a7b63-bf6a-4c40-93f4-c07ce52b9363	68db45ca-29ad-483d-b8e5-52b629d24d80	c76acb
 9c29c97f-7498-41ac-981b-928f3063854d	68db45ca-29ad-483d-b8e5-52b629d24d80	c76acbcd-0e40-42c4-aeb1-e046aebae494	\N	6b3b2f07-253a-4066-b5ca-96d93a149149	aa7bba1c-3a84-4ab7-8347-61ee28cc4ab6	\N	ND	\N	2021-08-04 08:45:22.866+00	2021-09-20 14:43:02.623+00	2021-09-20 14:43:40.663+00	t	t	\N
 f8d1d361-bbe5-401b-9b60-965415950563	68db45ca-29ad-483d-b8e5-52b629d24d80	c76acbcd-0e40-42c4-aeb1-e046aebae494	\N	6b3b2f07-253a-4066-b5ca-96d93a149149	aa7bba1c-3a84-4ab7-8347-61ee28cc4ab6	\N	ND	\N	2021-08-04 08:45:53.819+00	2021-09-20 14:45:41.922+00	2021-09-20 14:45:56.786+00	t	t	\N
 45fea0c1-d9a6-47f1-b94b-eba8e00b2247	237451bc-067e-4c61-ae8d-9c5fe93b49ce	\N	\N	6b3b2f07-253a-4066-b5ca-96d93a149149	cf6266a8-22f0-43ee-89e0-8e9f38f22dde	\N	ND	\N	2021-08-20 09:12:47.752+00	2021-09-20 14:46:43.983+00	2021-09-26 16:43:44.481+00	f	t	\N
-ee204749-0c4d-479e-be91-5797f62a90cf	237451bc-067e-4c61-ae8d-9c5fe93b49ce	\N	\N	6b3b2f07-253a-4066-b5ca-96d93a149149	aa7bba1c-3a84-4ab7-8347-61ee28cc4ab6	\N	 reponse a un notification de user , tsy mandeha ny connexion - 111 - tres urgent	\N	2021-08-20 11:50:25.459+00	2021-09-27 06:29:09.571+00	\N	f	f	\N
+a98cb359-3692-4c86-90a0-92b48a8cb786	237451bc-067e-4c61-ae8d-9c5fe93b49ce	\N	\N	4d1287b6-5268-4cf7-a2f8-1deab7c474fc	cf6266a8-22f0-43ee-89e0-8e9f38f22dde	\N	ND	\N	2021-08-21 05:00:00+00	2021-10-14 06:25:42.027+00	2021-10-14 07:04:06.167+00	f	t	\N
+f4363941-6517-45e8-b629-10baec64305a	237451bc-067e-4c61-ae8d-9c5fe93b49ce	\N	\N	6b3b2f07-253a-4066-b5ca-96d93a149149	cf6266a8-22f0-43ee-89e0-8e9f38f22dde	\N	ND	\N	2021-08-23 07:00:00+00	2021-10-14 06:38:47.451+00	2021-10-14 07:04:44.325+00	f	t	\N
+43412bb9-3255-40bb-8784-5b300dfdde52	237451bc-067e-4c61-ae8d-9c5fe93b49ce	\N	\N	6b3b2f07-253a-4066-b5ca-96d93a149149	a768355e-3cd2-497c-b579-d4e184b61298	41fa4608-ea97-42f7-a399-7dd62194f9a5	ND	\N	2021-08-24 05:00:00+00	2021-10-14 06:43:53.995+00	2021-10-14 07:05:26.894+00	f	t	\N
+ee204749-0c4d-479e-be91-5797f62a90cf	237451bc-067e-4c61-ae8d-9c5fe93b49ce	\N	\N	6b3b2f07-253a-4066-b5ca-96d93a149149	aa7bba1c-3a84-4ab7-8347-61ee28cc4ab6	\N	 reponse a un notification de user , tsy mandeha ny connexion - 111 - tres urgent	\N	2021-08-20 11:50:25.459+00	2021-09-27 06:29:09.571+00	2021-10-14 07:02:28.114+00	f	t	\N
 942fb4e2-9dee-4497-b4ca-02d547b16fcf	68db45ca-29ad-483d-b8e5-52b629d24d80	44df0de9-cc3d-4b93-a19c-b6cca4fa75c8	48aa0db2-7290-4fda-959f-c77fe815b6ac	6b3b2f07-253a-4066-b5ca-96d93a149149	aa7bba1c-3a84-4ab7-8347-61ee28cc4ab6	\N	ND	\N	2021-08-24 06:00:00.128+00	2021-08-24 05:53:31.233+00	2021-08-24 06:03:31.233+00	f	t	\N
 1bd4d366-6a86-4da0-91a3-0aa751ae7ffe	68db45ca-29ad-483d-b8e5-52b629d24d80	\N	\N	6b3b2f07-253a-4066-b5ca-96d93a149149	cf6266a8-22f0-43ee-89e0-8e9f38f22dde	\N	ND	\N	2021-08-24 06:00:00+00	2021-08-24 06:04:04.675+00	2021-08-24 06:14:04.675+00	f	t	\N
 7e708437-a582-4522-8453-0ed9305d108e	68db45ca-29ad-483d-b8e5-52b629d24d80	\N	\N	6b3b2f07-253a-4066-b5ca-96d93a149149	a768355e-3cd2-497c-b579-d4e184b61298	1bd4d366-6a86-4da0-91a3-0aa751ae7ffe	ND	\N	2021-08-24 07:00:00.768+00	2021-08-24 06:05:52.662+00	2021-08-24 06:15:52.662+00	f	t	\N
 4bd9dedb-2d4e-4294-87cf-e1ed597d76ab	68db45ca-29ad-483d-b8e5-52b629d24d80	\N	\N	6b3b2f07-253a-4066-b5ca-96d93a149149	a768355e-3cd2-497c-b579-d4e184b61298	7e708437-a582-4522-8453-0ed9305d108e	ND	\N	2021-08-25 07:00:00+00	\N	\N	f	f	\N
 65f7749c-5454-4c25-9620-1f1e7a40028c	68db45ca-29ad-483d-b8e5-52b629d24d80	\N	\N	6b3b2f07-253a-4066-b5ca-96d93a149149	aa7bba1c-3a84-4ab7-8347-61ee28cc4ab6	\N	 reponse a un notification de user , autre - 111 - pas urgent	\N	2021-08-24 06:17:56.051+00	2021-08-24 06:08:12.837+00	2021-08-24 06:18:12.837+00	t	t	\N
-b6858aa7-23d2-4cea-ba55-354633e53ea7	237451bc-067e-4c61-ae8d-9c5fe93b49ce	\N	\N	6b3b2f07-253a-4066-b5ca-96d93a149149	cf6266a8-22f0-43ee-89e0-8e9f38f22dde	\N	ND	\N	2021-09-17 05:00:00+00	\N	\N	f	f	
 b59fff1b-5292-4ebf-8549-dca53994c356	237451bc-067e-4c61-ae8d-9c5fe93b49ce	\N	\N	6b3b2f07-253a-4066-b5ca-96d93a149149	cf6266a8-22f0-43ee-89e0-8e9f38f22dde	\N	ND	\N	2021-09-16 05:00:00+00	2021-09-16 07:17:41.538+00	2021-09-17 11:16:50.542+00	t	t	routeur
 492a2c81-3ede-4a95-9964-d465da82578f	237451bc-067e-4c61-ae8d-9c5fe93b49ce	5ec09807-a138-4b08-acd1-bfb1a1833ecf	48aa0db2-7290-4fda-959f-c77fe815b6ac	6b3b2f07-253a-4066-b5ca-96d93a149149	aa7bba1c-3a84-4ab7-8347-61ee28cc4ab6	\N	 reponse a un notification de user , tsy mandeha ny connexion - 111 - tres urgent	redemarrer PC	2021-08-24 12:18:26.048+00	2021-08-24 12:11:15.741+00	2021-08-24 12:21:15.741+00	f	t	\N
-1f935d43-0715-4e49-ac45-26b90f5c13c8	237451bc-067e-4c61-ae8d-9c5fe93b49ce	\N	\N	6b3b2f07-253a-4066-b5ca-96d93a149149	a768355e-3cd2-497c-b579-d4e184b61298	492a2c81-3ede-4a95-9964-d465da82578f	ND	\N	2021-08-25 13:00:00+00	\N	\N	f	f	\N
-cce075e4-9c12-4a74-b3e5-de1f5351f55d	237451bc-067e-4c61-ae8d-9c5fe93b49ce	\N	\N	6b3b2f07-253a-4066-b5ca-96d93a149149	aa7bba1c-3a84-4ab7-8347-61ee28cc4ab6	\N	 reponse a un notification de user , tsy mandeha ny connexion - 111 - tres urgent	\N	2021-08-27 08:09:37.89+00	\N	\N	f	f	\N
-4c06194a-4ebd-4a3b-864b-39fc70900dbd	237451bc-067e-4c61-ae8d-9c5fe93b49ce	\N	\N	6b3b2f07-253a-4066-b5ca-96d93a149149	aa7bba1c-3a84-4ab7-8347-61ee28cc4ab6	\N	 reponse a un notification de user , tsy mandeha ny connexion - 111 - moyennement urgent	\N	2021-08-27 08:34:20.238+00	\N	\N	f	f	\N
-b589eed5-f285-4a99-aa8a-fcc8a1835ba8	237451bc-067e-4c61-ae8d-9c5fe93b49ce	\N	\N	6b3b2f07-253a-4066-b5ca-96d93a149149	aa7bba1c-3a84-4ab7-8347-61ee28cc4ab6	\N	 reponse a un notification de user , tsy mandeha ny connexion - 111 - moyennement urgent	\N	2021-08-27 08:43:24.884+00	\N	\N	f	f	\N
-d1af50df-10f5-4373-80f2-55494a23071e	237451bc-067e-4c61-ae8d-9c5fe93b49ce	\N	\N	6b3b2f07-253a-4066-b5ca-96d93a149149	aa7bba1c-3a84-4ab7-8347-61ee28cc4ab6	\N	 reponse a un notification de user , tsy mandeha ny connexion - 111 - tres urgent	\N	2021-08-27 08:48:48.416+00	\N	\N	f	f	\N
-5785df06-f838-4d2f-b41f-66ecbba351be	237451bc-067e-4c61-ae8d-9c5fe93b49ce	\N	\N	6b3b2f07-253a-4066-b5ca-96d93a149149	aa7bba1c-3a84-4ab7-8347-61ee28cc4ab6	\N	 reponse a un notification de user , tsy mandeha ny connexion - 111 - tres urgent	\N	2021-08-30 12:20:32.031+00	\N	\N	f	f	\N
 b09eb5a9-6408-43cd-a2fc-89380d38e4e7	237451bc-067e-4c61-ae8d-9c5fe93b49ce	\N	\N	6b3b2f07-253a-4066-b5ca-96d93a149149	aa7bba1c-3a84-4ab7-8347-61ee28cc4ab6	\N	 reponse a un notification de user1 , tsy mandeha ny connexion - 111 - tres urgent	\N	2021-08-30 12:14:36.781+00	2021-08-30 12:17:36.677+00	2021-08-30 12:27:36.677+00	f	t	\N
 4fdaf9cb-e097-4a49-ba18-562d039c126d	237451bc-067e-4c61-ae8d-9c5fe93b49ce	\N	\N	6b3b2f07-253a-4066-b5ca-96d93a149149	cf6266a8-22f0-43ee-89e0-8e9f38f22dde	\N	ND	\N	2021-08-30 05:00:00+00	2021-08-30 12:20:17.082+00	2021-08-30 12:30:17.082+00	t	t	\N
-7fa569e6-4464-410c-986d-8da00d39c5dd	237451bc-067e-4c61-ae8d-9c5fe93b49ce	\N	\N	6b3b2f07-253a-4066-b5ca-96d93a149149	aa7bba1c-3a84-4ab7-8347-61ee28cc4ab6	\N	 reponse a un notification de user , tsy mandeha ny connexion - 111 - moyennement urgent	\N	2021-08-31 08:22:20.724+00	\N	\N	f	f	\N
 905459f0-db0c-4c4e-9a2a-c839c07cdfed	237451bc-067e-4c61-ae8d-9c5fe93b49ce	\N	\N	6b3b2f07-253a-4066-b5ca-96d93a149149	aa7bba1c-3a84-4ab7-8347-61ee28cc4ab6	\N	 reponse a un notification de user , tsy mandeha ny imprimante - 111 - moyennement urgent	\N	2021-08-31 07:58:56.455+00	2021-08-31 19:17:48.623+00	2021-08-31 19:27:48.623+00	t	t	\N
-61c3ff04-734a-4ff7-8874-b2ca03453675	237451bc-067e-4c61-ae8d-9c5fe93b49ce	\N	\N	6b3b2f07-253a-4066-b5ca-96d93a149149	cf6266a8-22f0-43ee-89e0-8e9f38f22dde	55d10d6d-da11-4557-baf3-54b22ab18fb1	ND	\N	2021-09-01 05:00:00+00	\N	\N	f	f	\N
 1ed1f784-ccbe-4480-9947-e8b0bc4c5186	68db45ca-29ad-483d-b8e5-52b629d24d80	\N	\N	6b3b2f07-253a-4066-b5ca-96d93a149149	cf6266a8-22f0-43ee-89e0-8e9f38f22dde	\N	ND	\N	2021-09-01 11:00:00+00	2021-09-01 12:23:45.253+00	2021-09-01 12:33:45.253+00	t	t	\N
 6cc549f8-441f-4dee-97fd-f2dbca548a2f	68db45ca-29ad-483d-b8e5-52b629d24d80	\N	\N	6b3b2f07-253a-4066-b5ca-96d93a149149	aa7bba1c-3a84-4ab7-8347-61ee28cc4ab6	\N	 reponse a un notification de user , tsy mandeha ny connexion - 111 - tres urgent	\N	2021-09-06 07:41:34.82+00	\N	\N	f	f	\N
 c86f913f-f6c8-4ed6-a3e5-37fb9169611b	68db45ca-29ad-483d-b8e5-52b629d24d80	\N	\N	6b3b2f07-253a-4066-b5ca-96d93a149149	cf6266a8-22f0-43ee-89e0-8e9f38f22dde	\N	ND	\N	2021-07-23 05:00:00+00	2021-09-06 12:28:18.66+00	2021-09-06 12:38:18.66+00	t	t	\N
 58743746-39bf-40de-96da-286be279e40e	68db45ca-29ad-483d-b8e5-52b629d24d80	\N	\N	6b3b2f07-253a-4066-b5ca-96d93a149149	cf6266a8-22f0-43ee-89e0-8e9f38f22dde	\N	ND	\N	2021-09-07 08:00:00.802+00	\N	\N	f	f	\N
 dd583ece-897c-4137-9878-b59abddb2a6e	68db45ca-29ad-483d-b8e5-52b629d24d80	\N	\N	6b3b2f07-253a-4066-b5ca-96d93a149149	aa7bba1c-3a84-4ab7-8347-61ee28cc4ab6	\N	 reponse a un notification de user , tsy mandeha ny connexion - 111 - tres urgent	\N	2021-09-07 13:00:51.196+00	\N	\N	f	f	\N
-635c0368-f40a-41b3-8284-adeedf08e035	237451bc-067e-4c61-ae8d-9c5fe93b49ce	\N	\N	6b3b2f07-253a-4066-b5ca-96d93a149149	aa7bba1c-3a84-4ab7-8347-61ee28cc4ab6	\N	 reponse a un notification de user , tsy mandeha ny connexion - 111 - tres urgent	\N	2021-09-10 14:22:57.405+00	\N	\N	f	f	\N
-7ef835a1-d2d1-4703-9340-9632a8922eec	237451bc-067e-4c61-ae8d-9c5fe93b49ce	\N	\N	6b3b2f07-253a-4066-b5ca-96d93a149149	aa7bba1c-3a84-4ab7-8347-61ee28cc4ab6	\N	 reponse a un notification de user , tsy mandeha ny connexion - 111 - tres urgent	\N	2021-09-10 14:24:39.996+00	\N	\N	f	f	\N
 7ce19296-100a-4308-9082-891b21dc46d4	237451bc-067e-4c61-ae8d-9c5fe93b49ce	\N	1187acbb-861b-421b-9070-6f0b1b34e8ac	6b3b2f07-253a-4066-b5ca-96d93a149149	aa7bba1c-3a84-4ab7-8347-61ee28cc4ab6	\N	ND	\N	2021-09-15 18:00:00.528+00	2021-09-15 16:55:00.863+00	2021-09-15 17:05:00.863+00	t	t	\N
 253d3f18-be3b-4746-b677-6d2cdc0b3f11	237451bc-067e-4c61-ae8d-9c5fe93b49ce	\N	\N	6b3b2f07-253a-4066-b5ca-96d93a149149	aa7bba1c-3a84-4ab7-8347-61ee28cc4ab6	\N	 reponse a un notification de user , tsy mandeha ny connexion - 111 - pas urgent	\N	2021-08-31 06:43:20.994+00	2021-08-31 19:05:35.652+00	2021-09-20 14:41:54.509+00	t	t	\N
 7fe48b7d-b125-4aaa-a521-de98b6fa2d8e	68db45ca-29ad-483d-b8e5-52b629d24d80	c76acbcd-0e40-42c4-aeb1-e046aebae494	\N	6b3b2f07-253a-4066-b5ca-96d93a149149	cf6266a8-22f0-43ee-89e0-8e9f38f22dde	\N	Resoudre probleme : plantage ordinateur -- 111	\N	2021-08-04 11:00:00+00	2021-09-26 16:32:40.159+00	2021-09-26 16:42:40.159+00	t	t	\N
 340824e8-5bf2-48c8-bc87-f4acc05d2537	237451bc-067e-4c61-ae8d-9c5fe93b49ce	\N	\N	6b3b2f07-253a-4066-b5ca-96d93a149149	aa7bba1c-3a84-4ab7-8347-61ee28cc4ab6	\N	 reponse a un notification de user1 , tsy mandeha ny connexion - 111 - tres urgent	\N	2021-09-29 12:09:49.271+00	2021-09-29 12:00:37.398+00	2021-09-29 12:10:37.398+00	t	t	\N
-abfa997b-4dbb-4fa7-8136-e1e7b5502d7a	237451bc-067e-4c61-ae8d-9c5fe93b49ce	\N	\N	6b3b2f07-253a-4066-b5ca-96d93a149149	aa7bba1c-3a84-4ab7-8347-61ee28cc4ab6	\N	 reponse a un notification de user , tsy mandeha ny connexion - 111 - tres urgent	\N	2021-09-29 13:13:07.761+00	\N	\N	f	f	\N
 ad7af6c6-dff5-4a7c-86e6-b4882a5d8f2a	237451bc-067e-4c61-ae8d-9c5fe93b49ce	\N	\N	6b3b2f07-253a-4066-b5ca-96d93a149149	aa7bba1c-3a84-4ab7-8347-61ee28cc4ab6	\N	 reponse a un notification de user1 , tsy mandeha ny connexion - 111 - tres urgent	\N	2021-09-29 12:13:31.77+00	2021-09-29 12:04:32.426+00	2021-09-29 12:14:32.426+00	t	t	\N
-7644aa4d-3a1d-409a-aa57-19616a76dbd5	237451bc-067e-4c61-ae8d-9c5fe93b49ce	\N	\N	6b3b2f07-253a-4066-b5ca-96d93a149149	aa7bba1c-3a84-4ab7-8347-61ee28cc4ab6	\N	 reponse a un notification de user1 , tsy mandeha ny connexion - 111 - tres urgent	\N	2021-09-30 11:46:49.655+00	\N	\N	f	f	\N
 c9cbaeef-0c02-4e94-992c-e121cc49cc33	68db45ca-29ad-483d-b8e5-52b629d24d80	\N	\N	6b3b2f07-253a-4066-b5ca-96d93a149149	aa7bba1c-3a84-4ab7-8347-61ee28cc4ab6	\N	 reponse a un notification de user1 , tsy mandeha ny imprimante - 111 - pas urgent	\N	2021-10-05 06:56:05.171+00	2021-10-05 06:49:36.852+00	2021-10-05 06:59:36.852+00	f	t	\N
 65e56149-c55e-4bf9-83f4-3289f0fe6519	68db45ca-29ad-483d-b8e5-52b629d24d80	df6eb9c0-3378-49ac-8d75-ca54527592d6	\N	6b3b2f07-253a-4066-b5ca-96d93a149149	aa7bba1c-3a84-4ab7-8347-61ee28cc4ab6	\N	 reponse a une notification de user1 , tsy mandeha ny connexion - 111 - pas urgent	\N	2021-10-05 07:06:39.607+00	2021-10-05 06:56:55.95+00	2021-10-05 07:06:55.95+00	t	t	\N
 b6806e49-cab7-4dd9-905b-6a09214ed7c4	68db45ca-29ad-483d-b8e5-52b629d24d80	\N	7ebec45d-2197-4d91-87a7-7998845016cd	4d1287b6-5268-4cf7-a2f8-1deab7c474fc	cf6266a8-22f0-43ee-89e0-8e9f38f22dde	\N	ND	\N	2021-10-04 05:00:00+00	2021-10-05 07:59:39.45+00	2021-10-05 08:09:39.45+00	t	t	windows 10
 e6b8f655-1dab-4f4d-ac38-097c0fd86ae7	237451bc-067e-4c61-ae8d-9c5fe93b49ce	\N	\N	62255b2b-1028-4817-848b-2be1c74bd2fb	cf6266a8-22f0-43ee-89e0-8e9f38f22dde	\N	ND	\N	2021-10-06 07:00:00.846+00	2021-10-06 09:32:33.172+00	2021-10-06 09:42:33.172+00	f	t	imprimante
-9af07285-112b-4d06-8bad-31f3ed7483f4	237451bc-067e-4c61-ae8d-9c5fe93b49ce	\N	\N	6b3b2f07-253a-4066-b5ca-96d93a149149	122b77f6-ccd7-4cc5-a014-74858ba0e7d4	\N	ND	\N	2021-10-07 08:00:00+00	\N	\N	f	f	Serveur 2
 a5cdbb41-1edc-4882-b3a6-6023d960891d	237451bc-067e-4c61-ae8d-9c5fe93b49ce	\N	\N	6b3b2f07-253a-4066-b5ca-96d93a149149	aa7bba1c-3a84-4ab7-8347-61ee28cc4ab6	\N	 reponse a une notification de user , tsy mandeha ny connexion - 111 - tres urgent	\N	2021-10-07 16:17:58.771+00	2021-10-07 16:09:29.01+00	2021-10-07 16:19:29.01+00	t	t	\N
 9adcc540-4e3f-4a47-ae67-0b87098d307a	237451bc-067e-4c61-ae8d-9c5fe93b49ce	\N	\N	6b3b2f07-253a-4066-b5ca-96d93a149149	122b77f6-ccd7-4cc5-a014-74858ba0e7d4	\N	ND	\N	2021-10-07 07:00:00.616+00	2021-10-07 16:16:46.73+00	2021-10-07 16:26:46.73+00	t	t	Serveur
-7e8e0739-3838-4f8e-bf98-be7c21e627fa	237451bc-067e-4c61-ae8d-9c5fe93b49ce	\N	\N	6b3b2f07-253a-4066-b5ca-96d93a149149	aa7bba1c-3a84-4ab7-8347-61ee28cc4ab6	\N	 reponse a une notification de user , tsy mandeha ny connexion - 111 - pas urgent	\N	2021-10-08 06:42:44.414+00	\N	\N	f	f	\N
-40438add-8045-4799-aab5-ddf625a26458	237451bc-067e-4c61-ae8d-9c5fe93b49ce	\N	\N	6b3b2f07-253a-4066-b5ca-96d93a149149	aa7bba1c-3a84-4ab7-8347-61ee28cc4ab6	\N	 reponse a une notification de user , tsy mandeha ny connexion - 111 - tres urgent	\N	2021-10-08 06:44:07.52+00	\N	\N	f	f	\N
 e9fc36fb-0b53-483a-8312-404b686955cb	237451bc-067e-4c61-ae8d-9c5fe93b49ce	\N	\N	6b3b2f07-253a-4066-b5ca-96d93a149149	cf6266a8-22f0-43ee-89e0-8e9f38f22dde	\N	ND	\N	2021-10-08 05:00:00+00	2021-10-08 08:59:57.442+00	2021-10-08 09:09:57.442+00	t	t	windows 7
-3b62a967-bbca-4189-be1e-7ada77c502bf	237451bc-067e-4c61-ae8d-9c5fe93b49ce	\N	\N	6b3b2f07-253a-4066-b5ca-96d93a149149	aa7bba1c-3a84-4ab7-8347-61ee28cc4ab6	\N	 reponse a une notification de user , tsy mandeha ny connexion - 111 - tres urgent	\N	2021-10-08 07:50:47.109+00	\N	\N	f	f	\N
-89ee5542-5549-439d-955c-5df047a3cc94	237451bc-067e-4c61-ae8d-9c5fe93b49ce	\N	\N	6b3b2f07-253a-4066-b5ca-96d93a149149	aa7bba1c-3a84-4ab7-8347-61ee28cc4ab6	\N	 reponse a une notification de user1 , tsy mandeha ny imprimante - 111 - pas urgent	\N	2021-10-08 07:54:24.396+00	\N	\N	f	f	\N
-8358d6e2-7108-4f04-8078-6664fc551ff0	237451bc-067e-4c61-ae8d-9c5fe93b49ce	\N	\N	6b3b2f07-253a-4066-b5ca-96d93a149149	aa7bba1c-3a84-4ab7-8347-61ee28cc4ab6	\N	 reponse a une notification de user , tsy mandeha ny connexion - 111 - tres urgent	\N	2021-10-08 06:54:44.426+00	\N	\N	f	f	\N
-45b90e74-d163-46cf-b0b6-281e9a022403	237451bc-067e-4c61-ae8d-9c5fe93b49ce	\N	\N	6b3b2f07-253a-4066-b5ca-96d93a149149	aa7bba1c-3a84-4ab7-8347-61ee28cc4ab6	\N	 reponse a une notification de user , tsy mandeha ny connexion - 111 - tres urgent	\N	2021-10-08 07:56:04.575+00	\N	\N	f	f	\N
+61c3ff04-734a-4ff7-8874-b2ca03453675	237451bc-067e-4c61-ae8d-9c5fe93b49ce	\N	\N	6b3b2f07-253a-4066-b5ca-96d93a149149	cf6266a8-22f0-43ee-89e0-8e9f38f22dde	55d10d6d-da11-4557-baf3-54b22ab18fb1	ND	\N	2021-09-01 05:00:00+00	2021-10-14 07:10:12.474+00	2021-10-14 07:20:12.474+00	t	t	\N
+b589eed5-f285-4a99-aa8a-fcc8a1835ba8	237451bc-067e-4c61-ae8d-9c5fe93b49ce	\N	\N	6b3b2f07-253a-4066-b5ca-96d93a149149	aa7bba1c-3a84-4ab7-8347-61ee28cc4ab6	\N	 reponse a un notification de user , tsy mandeha ny connexion - 111 - moyennement urgent	\N	2021-08-27 08:43:24.884+00	2021-10-14 07:07:57.469+00	2021-10-14 07:26:37.026+00	f	t	\N
+b6858aa7-23d2-4cea-ba55-354633e53ea7	237451bc-067e-4c61-ae8d-9c5fe93b49ce	\N	\N	6b3b2f07-253a-4066-b5ca-96d93a149149	cf6266a8-22f0-43ee-89e0-8e9f38f22dde	\N	ND	\N	2021-09-17 05:00:00+00	2021-10-14 07:16:54.957+00	2021-10-14 07:26:54.957+00	f	t	
+7e8e0739-3838-4f8e-bf98-be7c21e627fa	237451bc-067e-4c61-ae8d-9c5fe93b49ce	\N	\N	6b3b2f07-253a-4066-b5ca-96d93a149149	aa7bba1c-3a84-4ab7-8347-61ee28cc4ab6	\N	 reponse a une notification de user , tsy mandeha ny connexion - 111 - pas urgent	\N	2021-10-08 06:42:44.414+00	2021-10-20 16:29:26.55+00	2021-10-20 16:39:26.55+00	t	t	\N
+5785df06-f838-4d2f-b41f-66ecbba351be	237451bc-067e-4c61-ae8d-9c5fe93b49ce	\N	\N	6b3b2f07-253a-4066-b5ca-96d93a149149	aa7bba1c-3a84-4ab7-8347-61ee28cc4ab6	\N	 reponse a un notification de user , tsy mandeha ny connexion - 111 - tres urgent	\N	2021-08-30 12:20:32.031+00	2021-10-14 07:11:32.966+00	2021-10-14 07:31:19.154+00	t	t	\N
+7fa569e6-4464-410c-986d-8da00d39c5dd	237451bc-067e-4c61-ae8d-9c5fe93b49ce	\N	\N	6b3b2f07-253a-4066-b5ca-96d93a149149	aa7bba1c-3a84-4ab7-8347-61ee28cc4ab6	\N	 reponse a un notification de user , tsy mandeha ny connexion - 111 - moyennement urgent	\N	2021-08-31 08:22:20.724+00	2021-10-14 07:06:39.111+00	2021-10-14 07:16:39.111+00	f	t	\N
+1f935d43-0715-4e49-ac45-26b90f5c13c8	237451bc-067e-4c61-ae8d-9c5fe93b49ce	\N	\N	6b3b2f07-253a-4066-b5ca-96d93a149149	a768355e-3cd2-497c-b579-d4e184b61298	492a2c81-3ede-4a95-9964-d465da82578f	ND	\N	2021-08-25 13:00:00+00	2021-10-14 06:45:28.084+00	2021-10-14 07:18:39.898+00	f	t	\N
+4c06194a-4ebd-4a3b-864b-39fc70900dbd	237451bc-067e-4c61-ae8d-9c5fe93b49ce	\N	\N	6b3b2f07-253a-4066-b5ca-96d93a149149	aa7bba1c-3a84-4ab7-8347-61ee28cc4ab6	\N	 reponse a un notification de user , tsy mandeha ny connexion - 111 - moyennement urgent	\N	2021-08-27 08:34:20.238+00	2021-10-14 06:49:45.249+00	2021-10-14 07:24:07.337+00	f	t	\N
+635c0368-f40a-41b3-8284-adeedf08e035	237451bc-067e-4c61-ae8d-9c5fe93b49ce	\N	\N	6b3b2f07-253a-4066-b5ca-96d93a149149	aa7bba1c-3a84-4ab7-8347-61ee28cc4ab6	\N	 reponse a un notification de user , tsy mandeha ny connexion - 111 - tres urgent	\N	2021-09-10 14:22:57.405+00	2021-10-14 07:12:47.02+00	2021-10-14 07:23:44.687+00	t	t	\N
+d1af50df-10f5-4373-80f2-55494a23071e	237451bc-067e-4c61-ae8d-9c5fe93b49ce	\N	\N	6b3b2f07-253a-4066-b5ca-96d93a149149	aa7bba1c-3a84-4ab7-8347-61ee28cc4ab6	\N	 reponse a un notification de user , tsy mandeha ny connexion - 111 - tres urgent	\N	2021-08-27 08:48:48.416+00	2021-10-14 07:09:29.482+00	2021-10-14 07:28:13.141+00	f	t	\N
+9af07285-112b-4d06-8bad-31f3ed7483f4	237451bc-067e-4c61-ae8d-9c5fe93b49ce	\N	\N	6b3b2f07-253a-4066-b5ca-96d93a149149	122b77f6-ccd7-4cc5-a014-74858ba0e7d4	\N	ND	\N	2021-10-07 08:00:00+00	2021-10-15 08:57:28.353+00	2021-10-15 08:58:04.512+00	t	t	Serveur 2
+abfa997b-4dbb-4fa7-8136-e1e7b5502d7a	237451bc-067e-4c61-ae8d-9c5fe93b49ce	\N	\N	6b3b2f07-253a-4066-b5ca-96d93a149149	aa7bba1c-3a84-4ab7-8347-61ee28cc4ab6	\N	 reponse a un notification de user , tsy mandeha ny connexion - 111 - tres urgent	\N	2021-09-29 13:13:07.761+00	2021-10-14 07:31:32.162+00	2021-10-14 17:31:34.589+00	f	t	\N
+7644aa4d-3a1d-409a-aa57-19616a76dbd5	237451bc-067e-4c61-ae8d-9c5fe93b49ce	\N	\N	6b3b2f07-253a-4066-b5ca-96d93a149149	aa7bba1c-3a84-4ab7-8347-61ee28cc4ab6	\N	 reponse a un notification de user1 , tsy mandeha ny connexion - 111 - tres urgent	\N	2021-09-30 11:46:49.655+00	2021-10-14 17:31:15.887+00	2021-10-15 08:57:50.44+00	f	t	\N
+40438add-8045-4799-aab5-ddf625a26458	237451bc-067e-4c61-ae8d-9c5fe93b49ce	\N	\N	6b3b2f07-253a-4066-b5ca-96d93a149149	aa7bba1c-3a84-4ab7-8347-61ee28cc4ab6	\N	 reponse a une notification de user , tsy mandeha ny connexion - 111 - tres urgent	\N	2021-10-08 06:44:07.52+00	2021-10-21 07:31:12.299+00	2021-10-21 07:36:27.716+00	t	t	\N
 249d139c-5c69-4a43-99eb-6222cf1a46d7	237451bc-067e-4c61-ae8d-9c5fe93b49ce	\N	\N	6b3b2f07-253a-4066-b5ca-96d93a149149	aa7bba1c-3a84-4ab7-8347-61ee28cc4ab6	\N	 reponse a une notification de user , tsy mandeha ny connexion - 111 - tres urgent	\N	2021-10-08 07:56:23.832+00	\N	\N	f	f	\N
 3d251eea-a701-4486-8f86-3c8927753672	237451bc-067e-4c61-ae8d-9c5fe93b49ce	\N	\N	6b3b2f07-253a-4066-b5ca-96d93a149149	122b77f6-ccd7-4cc5-a014-74858ba0e7d4	\N	ND	\N	2021-10-08 08:00:00.85+00	2021-10-08 07:03:44.438+00	2021-10-08 07:13:44.438+00	t	t	routeur , AP
+68251ade-5ba9-49e2-997f-c2328b47a5a9	237451bc-067e-4c61-ae8d-9c5fe93b49ce	\N	\N	6b3b2f07-253a-4066-b5ca-96d93a149149	aa7bba1c-3a84-4ab7-8347-61ee28cc4ab6	\N	 reponse a une notification de user , tsy mandeha ny connexion - 111 - tres urgent	\N	2021-10-12 08:53:35.276+00	\N	\N	f	f	\N
+d2687179-5582-4591-8e43-a8dcff96f90c	237451bc-067e-4c61-ae8d-9c5fe93b49ce	\N	\N	6b3b2f07-253a-4066-b5ca-96d93a149149	aa7bba1c-3a84-4ab7-8347-61ee28cc4ab6	\N	 reponse a une notification de user , tsy mandeha ny connexion - 111 - tres urgent	\N	2021-10-12 08:58:01.534+00	\N	\N	f	f	\N
+2ee20446-1c68-4b75-96f2-36c71ad32b38	237451bc-067e-4c61-ae8d-9c5fe93b49ce	\N	\N	6b3b2f07-253a-4066-b5ca-96d93a149149	aa7bba1c-3a84-4ab7-8347-61ee28cc4ab6	\N	 reponse a une notification de user , autre - 111 - tres urgent	\N	2021-10-12 08:58:41.699+00	\N	\N	f	f	\N
+8ee0c06b-c012-48a2-8de2-919e8047e99b	237451bc-067e-4c61-ae8d-9c5fe93b49ce	\N	\N	6b3b2f07-253a-4066-b5ca-96d93a149149	aa7bba1c-3a84-4ab7-8347-61ee28cc4ab6	\N	 reponse a une notification de user , tsy mandeha ny connexion - 111 - tres urgent	\N	2021-10-12 08:59:51.679+00	\N	\N	f	f	\N
+26be7518-8195-4a8d-94ac-54411dec3925	237451bc-067e-4c61-ae8d-9c5fe93b49ce	\N	\N	6b3b2f07-253a-4066-b5ca-96d93a149149	aa7bba1c-3a84-4ab7-8347-61ee28cc4ab6	\N	 reponse a une notification de user , tsy mandeha ny connexion - 111 - tres urgent	\N	2021-10-12 08:59:51.723+00	\N	\N	f	f	\N
+9241c2cd-b328-4e45-8332-aee84d7012b3	237451bc-067e-4c61-ae8d-9c5fe93b49ce	\N	\N	6b3b2f07-253a-4066-b5ca-96d93a149149	aa7bba1c-3a84-4ab7-8347-61ee28cc4ab6	\N	 reponse a une notification de user , tsy mandeha ny connexion - 111 - tres urgent	\N	2021-10-12 08:59:51.742+00	\N	\N	f	f	\N
+4f102ba0-2b26-407d-a9dc-7292504a4e83	237451bc-067e-4c61-ae8d-9c5fe93b49ce	\N	\N	6b3b2f07-253a-4066-b5ca-96d93a149149	aa7bba1c-3a84-4ab7-8347-61ee28cc4ab6	\N	 reponse a une notification de user , tsy mandeha ny connexion - 111 - tres urgent	\N	2021-10-12 09:00:49.677+00	\N	\N	f	f	\N
+edbd33b9-d11e-409e-b971-dccd250a43c4	237451bc-067e-4c61-ae8d-9c5fe93b49ce	\N	\N	6b3b2f07-253a-4066-b5ca-96d93a149149	aa7bba1c-3a84-4ab7-8347-61ee28cc4ab6	\N	 reponse a une notification de user , tsy mandeha ny connexion - 111 - moyennement urgent	\N	2021-10-13 05:45:16.873+00	\N	\N	f	f	\N
+60e33233-d41e-4c99-8200-636e117c53f9	237451bc-067e-4c61-ae8d-9c5fe93b49ce	\N	\N	6b3b2f07-253a-4066-b5ca-96d93a149149	aa7bba1c-3a84-4ab7-8347-61ee28cc4ab6	\N	 reponse a une notification de user , tsy mandeha ny connexion - 111 - moyennement urgent	\N	2021-10-13 05:45:36.544+00	\N	\N	f	f	\N
+3b0be3b4-6a58-42a3-94da-b52afd5e3189	237451bc-067e-4c61-ae8d-9c5fe93b49ce	\N	\N	6b3b2f07-253a-4066-b5ca-96d93a149149	aa7bba1c-3a84-4ab7-8347-61ee28cc4ab6	\N	 reponse a une notification de user , tsy mandeha ny connexion - 111 - moyennement urgent	\N	2021-10-13 05:48:41.317+00	\N	\N	f	f	\N
+1fba885e-f096-4d8f-a7a1-591e68a22fde	237451bc-067e-4c61-ae8d-9c5fe93b49ce	\N	\N	6b3b2f07-253a-4066-b5ca-96d93a149149	aa7bba1c-3a84-4ab7-8347-61ee28cc4ab6	\N	 reponse a une notification de user , tsy mandeha ny connexion - 111 - tres urgent	\N	2021-10-13 06:32:02.404+00	\N	\N	f	f	\N
+26deb718-11ae-4abb-aa08-7877cc2f75ca	237451bc-067e-4c61-ae8d-9c5fe93b49ce	\N	\N	6b3b2f07-253a-4066-b5ca-96d93a149149	aa7bba1c-3a84-4ab7-8347-61ee28cc4ab6	\N	 reponse a une notification de user , tsy mandeha ny connexion - 111 - tres urgent	\N	2021-10-13 07:32:25.65+00	\N	\N	f	f	\N
+c52d09c4-005a-4e1d-97a6-1eb68d096ba5	237451bc-067e-4c61-ae8d-9c5fe93b49ce	\N	\N	6b3b2f07-253a-4066-b5ca-96d93a149149	aa7bba1c-3a84-4ab7-8347-61ee28cc4ab6	\N	 reponse a une notification de user , tsy mandeha ny connexion - 111 - tres urgent	\N	2021-10-13 07:33:17.555+00	\N	\N	f	f	\N
+201651c3-ec9e-4650-a1b7-ce23d1bdf195	237451bc-067e-4c61-ae8d-9c5fe93b49ce	\N	\N	6b3b2f07-253a-4066-b5ca-96d93a149149	aa7bba1c-3a84-4ab7-8347-61ee28cc4ab6	\N	 reponse a une notification de user , tsy mandeha ny connexion - 111 - tres urgent	\N	2021-10-13 07:38:54.135+00	\N	\N	f	f	\N
+115e4dc8-1db2-4450-b223-cbd5eb1dd95e	237451bc-067e-4c61-ae8d-9c5fe93b49ce	\N	\N	6b3b2f07-253a-4066-b5ca-96d93a149149	aa7bba1c-3a84-4ab7-8347-61ee28cc4ab6	\N	 reponse a une notification de user , tsy mandeha ny connexion - 111 - tres urgent	\N	2021-10-13 08:25:11.059+00	\N	\N	f	f	\N
+f79ab56d-8797-4769-8275-b4ef476737fe	237451bc-067e-4c61-ae8d-9c5fe93b49ce	\N	\N	6b3b2f07-253a-4066-b5ca-96d93a149149	aa7bba1c-3a84-4ab7-8347-61ee28cc4ab6	\N	 reponse a une notification de user1 , tsy mandeha ny imprimante - 111 - pas urgent	\N	2021-10-13 07:29:45.231+00	\N	\N	f	f	\N
+555d5f80-d320-4f61-a539-b2ca7b80394f	237451bc-067e-4c61-ae8d-9c5fe93b49ce	\N	\N	62255b2b-1028-4817-848b-2be1c74bd2fb	aa7bba1c-3a84-4ab7-8347-61ee28cc4ab6	\N	 reponse a une notification de user , tsy mandeha ny connexion - dsi - pas urgent	\N	2021-10-13 07:40:23.37+00	\N	\N	f	f	\N
+7c8654a3-9c27-4622-865c-7dc305b21270	237451bc-067e-4c61-ae8d-9c5fe93b49ce	\N	\N	62255b2b-1028-4817-848b-2be1c74bd2fb	aa7bba1c-3a84-4ab7-8347-61ee28cc4ab6	\N	 reponse a une notification de user , tsy mandeha ny connexion - dsi - pas urgent	\N	2021-10-13 07:40:23.862+00	\N	\N	f	f	\N
+f33a9bba-32fa-4198-9301-5afa419bc3ef	237451bc-067e-4c61-ae8d-9c5fe93b49ce	\N	\N	62255b2b-1028-4817-848b-2be1c74bd2fb	aa7bba1c-3a84-4ab7-8347-61ee28cc4ab6	\N	 reponse a une notification de user , tsy mandeha ny connexion - dsi - pas urgent	\N	2021-10-13 07:40:24.279+00	\N	\N	f	f	\N
+95067fec-2977-4b23-a7aa-e69493a3f472	237451bc-067e-4c61-ae8d-9c5fe93b49ce	\N	\N	6b3b2f07-253a-4066-b5ca-96d93a149149	aa7bba1c-3a84-4ab7-8347-61ee28cc4ab6	\N	 reponse a une notification de user , tsy mandeha ny connexion - 111 - moyennement urgent	\N	2021-10-13 09:32:17.958+00	\N	\N	f	f	\N
+face10e6-58f2-4c55-ab45-63cb2a29fed1	237451bc-067e-4c61-ae8d-9c5fe93b49ce	\N	\N	6b3b2f07-253a-4066-b5ca-96d93a149149	aa7bba1c-3a84-4ab7-8347-61ee28cc4ab6	\N	 reponse a une notification de user , tsy mandeha ny connexion - 111 - tres urgent	\N	2021-10-13 09:32:36.629+00	\N	\N	f	f	\N
+0e93f1e8-9baf-471e-bede-b315724df404	237451bc-067e-4c61-ae8d-9c5fe93b49ce	\N	\N	6b3b2f07-253a-4066-b5ca-96d93a149149	aa7bba1c-3a84-4ab7-8347-61ee28cc4ab6	\N	 reponse a une notification de user , tsy mandeha ny connexion - 111 - tres urgent	\N	2021-10-13 09:33:51.799+00	\N	\N	f	f	\N
+fc75ff77-10bb-4fb6-bd91-0c8e45f057e1	237451bc-067e-4c61-ae8d-9c5fe93b49ce	\N	\N	6b3b2f07-253a-4066-b5ca-96d93a149149	aa7bba1c-3a84-4ab7-8347-61ee28cc4ab6	\N	 reponse a une notification de user , tsy mandeha ny connexion - 111 - tres urgent	\N	2021-10-13 09:36:05.082+00	\N	\N	f	f	\N
+eb460324-82db-4a70-8d26-e96382ae57cb	237451bc-067e-4c61-ae8d-9c5fe93b49ce	\N	\N	6b3b2f07-253a-4066-b5ca-96d93a149149	aa7bba1c-3a84-4ab7-8347-61ee28cc4ab6	\N	 reponse a une notification de user1 , autre - 111 - tres urgent	\N	2021-10-17 13:05:13.758+00	\N	\N	f	f	\N
+cce075e4-9c12-4a74-b3e5-de1f5351f55d	237451bc-067e-4c61-ae8d-9c5fe93b49ce	\N	\N	6b3b2f07-253a-4066-b5ca-96d93a149149	aa7bba1c-3a84-4ab7-8347-61ee28cc4ab6	\N	 reponse a un notification de user , tsy mandeha ny connexion - 111 - tres urgent	\N	2021-08-27 08:09:37.89+00	2021-10-14 06:47:51.444+00	2021-10-14 07:21:59.102+00	t	t	\N
+7ef835a1-d2d1-4703-9340-9632a8922eec	237451bc-067e-4c61-ae8d-9c5fe93b49ce	\N	\N	6b3b2f07-253a-4066-b5ca-96d93a149149	aa7bba1c-3a84-4ab7-8347-61ee28cc4ab6	\N	 reponse a un notification de user , tsy mandeha ny connexion - 111 - tres urgent	\N	2021-09-10 14:24:39.996+00	2021-10-14 07:14:39.961+00	2021-10-14 07:24:44.797+00	t	t	\N
+a3231665-40ef-4b21-8b7c-160412d759f3	237451bc-067e-4c61-ae8d-9c5fe93b49ce	\N	\N	6b3b2f07-253a-4066-b5ca-96d93a149149	aa7bba1c-3a84-4ab7-8347-61ee28cc4ab6	\N	 reponse a une notification de user , tsy mandeha ny connexion - 111 - tres urgent	\N	2021-10-15 08:56:32.604+00	2021-10-15 08:46:51.054+00	2021-10-15 08:56:51.054+00	t	t	\N
+7849bf16-458c-4175-aa9d-44e0cc1831ef	237451bc-067e-4c61-ae8d-9c5fe93b49ce	\N	\N	6b3b2f07-253a-4066-b5ca-96d93a149149	aa7bba1c-3a84-4ab7-8347-61ee28cc4ab6	\N	 reponse a une notification de user , tsy mandeha ny connexion - 111 - tres urgent	\N	2021-10-16 12:21:39.814+00	\N	\N	f	f	\N
+04011c6a-5d9f-407c-9cdf-c376be7d6a2a	237451bc-067e-4c61-ae8d-9c5fe93b49ce	\N	\N	6b3b2f07-253a-4066-b5ca-96d93a149149	aa7bba1c-3a84-4ab7-8347-61ee28cc4ab6	\N	 reponse a une notification de user1 , tsy mandeha ny connexion - 111 - moyennement urgent	\N	2021-10-18 09:20:58.066+00	\N	\N	f	f	\N
+76f322dd-46cc-43d6-bddf-c39f88efa996	237451bc-067e-4c61-ae8d-9c5fe93b49ce	\N	\N	6b3b2f07-253a-4066-b5ca-96d93a149149	aa7bba1c-3a84-4ab7-8347-61ee28cc4ab6	\N	 reponse a une notification de user , tsy mandeha ny connexion - 111 - tres urgent	\N	2021-10-18 09:28:26.415+00	\N	\N	f	f	\N
+cd8acdb9-9662-4bfc-b5c5-465a70384b49	237451bc-067e-4c61-ae8d-9c5fe93b49ce	\N	\N	6b3b2f07-253a-4066-b5ca-96d93a149149	aa7bba1c-3a84-4ab7-8347-61ee28cc4ab6	\N	 reponse a une notification de user1 , tsy mandeha ny connexion - 111 - moyennement urgent	\N	2021-10-19 08:45:23.853+00	\N	\N	f	f	\N
+295a424b-f1c7-4e51-ab92-377d88ca2ee8	237451bc-067e-4c61-ae8d-9c5fe93b49ce	\N	\N	6b3b2f07-253a-4066-b5ca-96d93a149149	aa7bba1c-3a84-4ab7-8347-61ee28cc4ab6	\N	 reponse a une notification de user1 , tsy mandeha ny connexion - 111 - tres urgent	\N	2021-10-19 09:13:22.849+00	\N	\N	f	f	\N
+a3049b3d-7772-4fc2-91b8-906a40d98ebb	237451bc-067e-4c61-ae8d-9c5fe93b49ce	\N	\N	6b3b2f07-253a-4066-b5ca-96d93a149149	aa7bba1c-3a84-4ab7-8347-61ee28cc4ab6	\N	 reponse a une notification de user1 , tsy mandeha ny connexion - 111 - tres urgent	\N	2021-10-19 09:16:54.343+00	\N	\N	f	f	\N
+89ee5542-5549-439d-955c-5df047a3cc94	237451bc-067e-4c61-ae8d-9c5fe93b49ce	\N	\N	6b3b2f07-253a-4066-b5ca-96d93a149149	aa7bba1c-3a84-4ab7-8347-61ee28cc4ab6	\N	 reponse a une notification de user1 , tsy mandeha ny imprimante - 111 - pas urgent	\N	2021-10-08 07:54:24.396+00	2021-10-22 08:10:23.872+00	2021-10-22 08:20:23.872+00	t	t	\N
+3b62a967-bbca-4189-be1e-7ada77c502bf	237451bc-067e-4c61-ae8d-9c5fe93b49ce	\N	\N	6b3b2f07-253a-4066-b5ca-96d93a149149	aa7bba1c-3a84-4ab7-8347-61ee28cc4ab6	\N	 reponse a une notification de user , tsy mandeha ny connexion - 111 - tres urgent	\N	2021-10-08 07:50:47.109+00	2021-10-22 07:17:24.959+00	2021-10-22 07:17:35.656+00	f	t	\N
+45b90e74-d163-46cf-b0b6-281e9a022403	237451bc-067e-4c61-ae8d-9c5fe93b49ce	\N	\N	6b3b2f07-253a-4066-b5ca-96d93a149149	aa7bba1c-3a84-4ab7-8347-61ee28cc4ab6	\N	 reponse a une notification de user , tsy mandeha ny connexion - 111 - tres urgent	\N	2021-10-08 07:56:04.575+00	2021-10-22 09:09:51.028+00	2021-10-22 09:15:09.137+00	f	t	\N
+119fd3d6-c8e3-4e34-8ce3-938809cdcd34	237451bc-067e-4c61-ae8d-9c5fe93b49ce	\N	\N	6b3b2f07-253a-4066-b5ca-96d93a149149	aa7bba1c-3a84-4ab7-8347-61ee28cc4ab6	\N	 reponse a une notification de user1 , tsy mandeha ny connexion - 111 - tres urgent	\N	2021-10-19 09:18:24.002+00	\N	\N	f	f	\N
+a1bea9c8-03f5-4534-abb8-6f257cab8069	237451bc-067e-4c61-ae8d-9c5fe93b49ce	\N	\N	6b3b2f07-253a-4066-b5ca-96d93a149149	aa7bba1c-3a84-4ab7-8347-61ee28cc4ab6	\N	 reponse a une notification de user , tsy mandeha ny connexion - 111 - tres urgent	\N	2021-10-20 16:28:29.38+00	2021-10-20 16:21:38.957+00	2021-10-20 16:31:38.957+00	t	t	\N
+e319b5e0-9f6b-4399-9218-2f81e9202896	237451bc-067e-4c61-ae8d-9c5fe93b49ce	\N	\N	6b3b2f07-253a-4066-b5ca-96d93a149149	aa7bba1c-3a84-4ab7-8347-61ee28cc4ab6	\N	 reponse a une notification de user1 , tsy mandeha ny connexion - 111 - tres urgent	\N	2021-10-20 09:24:01.202+00	2021-10-20 16:23:31.232+00	2021-10-20 16:33:31.232+00	t	t	\N
+3a123c3d-c6f1-4ec6-a1b8-256b3167f854	237451bc-067e-4c61-ae8d-9c5fe93b49ce	\N	\N	6b3b2f07-253a-4066-b5ca-96d93a149149	aa7bba1c-3a84-4ab7-8347-61ee28cc4ab6	\N	 reponse a une notification de user , tsy mandeha ny connexion - 111 - tres urgent	\N	2021-10-20 16:36:21.674+00	2021-10-20 16:26:43.864+00	2021-10-20 16:36:43.864+00	t	t	\N
+3bb336f0-591d-474e-8901-ac307763b0cb	237451bc-067e-4c61-ae8d-9c5fe93b49ce	\N	\N	6b3b2f07-253a-4066-b5ca-96d93a149149	aa7bba1c-3a84-4ab7-8347-61ee28cc4ab6	\N	 reponse a une notification de user1 , tsy mandeha ny connexion - 111 - pas urgent	\N	2021-10-21 07:25:13.743+00	2021-10-21 07:26:31.833+00	2021-10-21 07:30:59.931+00	t	t	\N
+8715ab78-2240-4476-9abe-e9a5f6e75069	237451bc-067e-4c61-ae8d-9c5fe93b49ce	\N	\N	6b3b2f07-253a-4066-b5ca-96d93a149149	aa7bba1c-3a84-4ab7-8347-61ee28cc4ab6	\N	 reponse a une notification de user1 , tsy mandeha ny connexion - 111 - tres urgent	\N	2021-10-21 07:47:27.781+00	\N	\N	f	f	\N
+1a197e2e-17c8-4f46-83b4-aab71067cb94	237451bc-067e-4c61-ae8d-9c5fe93b49ce	\N	\N	6b3b2f07-253a-4066-b5ca-96d93a149149	aa7bba1c-3a84-4ab7-8347-61ee28cc4ab6	\N	 reponse a une notification de user1 , tsy mandeha ny connexion - 111 - tres urgent	\N	2021-10-21 07:34:25.341+00	2021-10-21 07:38:06.114+00	2021-10-22 07:10:02.541+00	f	t	\N
+8358d6e2-7108-4f04-8078-6664fc551ff0	237451bc-067e-4c61-ae8d-9c5fe93b49ce	\N	\N	6b3b2f07-253a-4066-b5ca-96d93a149149	aa7bba1c-3a84-4ab7-8347-61ee28cc4ab6	\N	 reponse a une notification de user , tsy mandeha ny connexion - 111 - tres urgent	\N	2021-10-08 06:54:44.426+00	2021-10-22 07:15:33.435+00	2021-10-22 07:15:42.115+00	t	t	\N
+886e2b38-8923-4b2a-8f94-19852a5d5ae5	237451bc-067e-4c61-ae8d-9c5fe93b49ce	\N	\N	6b3b2f07-253a-4066-b5ca-96d93a149149	aa7bba1c-3a84-4ab7-8347-61ee28cc4ab6	\N	 reponse a une notification de user , autre - 111 - pas urgent	\N	2021-10-22 08:09:19.874+00	2021-10-22 08:05:10.906+00	2021-10-22 08:15:10.906+00	t	t	\N
+e0fc802c-b26b-45d0-8cc7-db265b52ccb1	237451bc-067e-4c61-ae8d-9c5fe93b49ce	\N	\N	6b3b2f07-253a-4066-b5ca-96d93a149149	aa7bba1c-3a84-4ab7-8347-61ee28cc4ab6	\N	 reponse a une notification de user , tsy mandeha ny imprimante - 111 - tres urgent	\N	2021-10-22 07:18:01.496+00	2021-10-22 08:06:41.476+00	2021-10-22 08:16:41.476+00	t	t	\N
+f0ce4ae6-2a46-4df9-bf26-157235db276d	237451bc-067e-4c61-ae8d-9c5fe93b49ce	\N	\N	6b3b2f07-253a-4066-b5ca-96d93a149149	aa7bba1c-3a84-4ab7-8347-61ee28cc4ab6	\N	 reponse a une notification de user1 , tsy mandeha ny connexion - 111 - tres urgent	\N	2021-10-21 07:52:37.22+00	2021-10-22 08:08:59.952+00	2021-10-22 08:18:59.952+00	t	t	\N
+6c06a6d0-6a74-4aed-a994-f49977959685	237451bc-067e-4c61-ae8d-9c5fe93b49ce	\N	\N	6b3b2f07-253a-4066-b5ca-96d93a149149	aa7bba1c-3a84-4ab7-8347-61ee28cc4ab6	\N	 reponse a une notification de user , autre - 111 - pas urgent	\N	2021-10-22 08:21:38.216+00	2021-10-22 08:10:56.967+00	2021-10-22 08:21:04.556+00	t	t	\N
+1b990319-014c-45a0-91ef-85b895a04404	237451bc-067e-4c61-ae8d-9c5fe93b49ce	\N	\N	6b3b2f07-253a-4066-b5ca-96d93a149149	aa7bba1c-3a84-4ab7-8347-61ee28cc4ab6	\N	 reponse a une notification de user , tsy mandeha ny imprimante - 111 - tres urgent	\N	2021-10-22 08:19:43.547+00	2021-10-22 08:11:11.672+00	2021-10-22 08:21:11.672+00	t	t	\N
+e4487d33-36ea-43c3-9973-f08d90e34473	237451bc-067e-4c61-ae8d-9c5fe93b49ce	\N	\N	6b3b2f07-253a-4066-b5ca-96d93a149149	aa7bba1c-3a84-4ab7-8347-61ee28cc4ab6	\N	 reponse a une notification de user , tsy mandeha ny connexion - 111 - tres urgent	\N	2021-10-22 08:21:42.591+00	2021-10-22 08:12:16.824+00	2021-10-22 08:22:16.824+00	t	t	\N
+56ce53ad-b641-4d0a-b30b-96cde2bd206b	237451bc-067e-4c61-ae8d-9c5fe93b49ce	\N	\N	6b3b2f07-253a-4066-b5ca-96d93a149149	aa7bba1c-3a84-4ab7-8347-61ee28cc4ab6	\N	 reponse a une notification de user1 , tsy mandeha ny connexion - 111 - tres urgent	\N	2021-10-22 08:21:56.008+00	2021-10-22 08:23:20.549+00	2021-10-22 09:15:26.974+00	f	t	\N
+22fb8302-5f61-4b04-96a5-d2162a2c29a3	237451bc-067e-4c61-ae8d-9c5fe93b49ce	\N	\N	6b3b2f07-253a-4066-b5ca-96d93a149149	aa7bba1c-3a84-4ab7-8347-61ee28cc4ab6	\N	 reponse a une notification de user , tsy mandeha ny connexion - 111 - tres urgent	\N	2021-10-22 09:17:18.97+00	2021-10-22 09:13:41.49+00	2021-10-22 09:23:41.49+00	f	t	\N
+0c58a5dc-370d-4218-914e-cdc8f5da4427	237451bc-067e-4c61-ae8d-9c5fe93b49ce	\N	\N	6b3b2f07-253a-4066-b5ca-96d93a149149	aa7bba1c-3a84-4ab7-8347-61ee28cc4ab6	\N	 reponse a une notification de user , tsy mandeha ny connexion - 111 - tres urgent	\N	2021-10-22 09:24:27.761+00	2021-10-22 09:14:47.801+00	2021-10-22 09:24:47.801+00	f	t	\N
+09af2771-01f3-46f9-b1b0-885728c347bf	237451bc-067e-4c61-ae8d-9c5fe93b49ce	\N	\N	6b3b2f07-253a-4066-b5ca-96d93a149149	a768355e-3cd2-497c-b579-d4e184b61298	e91c30c7-8e08-4c47-84ba-705e9091ae8e	ND	\N	2021-10-22 12:00:00+00	2021-10-22 09:20:16.216+00	2021-10-22 09:32:45.336+00	t	t	
+e91c30c7-8e08-4c47-84ba-705e9091ae8e	237451bc-067e-4c61-ae8d-9c5fe93b49ce	\N	\N	6b3b2f07-253a-4066-b5ca-96d93a149149	a768355e-3cd2-497c-b579-d4e184b61298	0c58a5dc-370d-4218-914e-cdc8f5da4427	ND	\N	2021-10-22 10:00:00.199+00	2021-10-22 09:19:38.612+00	2021-10-22 09:35:59.018+00	t	t	
+21287bc7-0bb7-4bac-9e56-77a922bb6a1d	237451bc-067e-4c61-ae8d-9c5fe93b49ce	\N	\N	6b3b2f07-253a-4066-b5ca-96d93a149149	aa7bba1c-3a84-4ab7-8347-61ee28cc4ab6	\N	 reponse a une notification de user , tsy mandeha ny connexion - 111 - moyennement urgent	\N	2021-10-25 09:11:22.787+00	2021-10-25 09:01:42.144+00	2021-10-25 09:11:42.144+00	f	t	\N
+99cb2741-16f2-44d0-9a20-831b4fc3fc19	237451bc-067e-4c61-ae8d-9c5fe93b49ce	d771003d-3fd3-4d84-a59a-c2551aacc5d2	\N	6b3b2f07-253a-4066-b5ca-96d93a149149	a768355e-3cd2-497c-b579-d4e184b61298	21287bc7-0bb7-4bac-9e56-77a922bb6a1d	Resoudre probleme : Matériel endomager -- 111	\N	2021-10-25 10:00:00.386+00	2021-10-25 09:05:28.957+00	2021-10-25 09:15:28.957+00	t	t	
 \.
 
 
@@ -2336,6 +2395,9 @@ f8bd75fe-251a-4693-bec9-c7982bddaa65	237451bc-067e-4c61-ae8d-9c5fe93b49ce	2021-0
 e5b55dea-d63b-4d02-89af-1b011ff81c8e	237451bc-067e-4c61-ae8d-9c5fe93b49ce	2021-10-07 16:35:59.81711+00	Panne de connexion à 10h	t
 4b608552-20d9-4589-b999-3f7db3bc42f6	237451bc-067e-4c61-ae8d-9c5fe93b49ce	2021-10-08 06:53:06.419789+00	salle 111 :installation switch à 14h\n	t
 f9b8fa8b-5434-4702-907e-f11eaaf91722	237451bc-067e-4c61-ae8d-9c5fe93b49ce	2021-10-08 06:54:10.440685+00	salle 111 :installation switch à 16h\n	t
+8d6cee32-e7cb-4bd4-a170-53708fcc85ae	237451bc-067e-4c61-ae8d-9c5fe93b49ce	2021-10-25 09:17:29.542165+00	hello	f
+b38020d0-7777-4009-97d7-7853b9fa17be	68db45ca-29ad-483d-b8e5-52b629d24d80	2021-10-25 09:17:40.806029+00	salama	f
+1e118705-0930-4cfe-81e5-9b238cdfc1e3	237451bc-067e-4c61-ae8d-9c5fe93b49ce	2021-10-25 09:17:59.754201+00	Annonce\nHEllo	t
 \.
 
 
@@ -2401,21 +2463,77 @@ cd479dc7-e226-4669-988d-2005149c9196	fec0af71-5541-40e1-93ad-033ad5fb2fa0	237451
 e8aef598-da83-4e37-a44a-dd51df6ec564	83a31293-3fbc-4e32-8814-0421fae2b491	237451bc-067e-4c61-ae8d-9c5fe93b49ce	c1ad4b7f-b841-4db8-94d8-2a785d366b62	2021-09-29 12:09:31.179037+00	2021-09-29 12:09:49.271+00	340824e8-5bf2-48c8-bc87-f4acc05d2537
 c4017a62-dd84-424e-bf13-753ebf50213a	fec0af71-5541-40e1-93ad-033ad5fb2fa0	237451bc-067e-4c61-ae8d-9c5fe93b49ce	99128a75-c2b0-46e3-8387-3ec538ca2fc5	2021-08-31 06:55:30.891909+00	2021-09-29 12:13:07.761+00	abfa997b-4dbb-4fa7-8136-e1e7b5502d7a
 e4bbbfe7-2361-493b-a26c-6f687c4ceea6	83a31293-3fbc-4e32-8814-0421fae2b491	237451bc-067e-4c61-ae8d-9c5fe93b49ce	2396e8eb-426a-4a3c-8389-ef389b67e1e3	2021-09-29 12:13:19.95486+00	2021-09-29 12:13:31.77+00	ad7af6c6-dff5-4a7c-86e6-b4882a5d8f2a
-7cdacd88-5fcf-432e-acc1-4e9676eea8b7	83a31293-3fbc-4e32-8814-0421fae2b491	\N	82540b0c-a1d9-4f33-ad0f-5e1809113e0f	2021-09-30 11:45:58.683825+00	\N	\N
 a2ce5980-58dd-465d-ab4b-cf1269ed1f97	83a31293-3fbc-4e32-8814-0421fae2b491	237451bc-067e-4c61-ae8d-9c5fe93b49ce	fbabfef0-385b-4066-b7ee-061a8aeaf0bb	2021-09-30 11:45:48.543503+00	2021-09-30 11:46:49.655+00	7644aa4d-3a1d-409a-aa57-19616a76dbd5
 1c0e880d-7e89-4ca6-9d6a-fc18769eb0bd	83a31293-3fbc-4e32-8814-0421fae2b491	68db45ca-29ad-483d-b8e5-52b629d24d80	02cfeda9-e402-4f47-9f13-e87749e044ff	2021-09-30 11:46:31.469029+00	2021-10-05 06:56:05.171+00	c9cbaeef-0c02-4e94-992c-e121cc49cc33
-2d4f9a5f-7efc-4cb4-9dca-54abf59d8133	fec0af71-5541-40e1-93ad-033ad5fb2fa0	\N	c3cc67b1-dd30-490c-bd0d-03d76d46c843	2021-10-07 16:33:32.370322+00	\N	\N
+2d4f9a5f-7efc-4cb4-9dca-54abf59d8133	fec0af71-5541-40e1-93ad-033ad5fb2fa0	237451bc-067e-4c61-ae8d-9c5fe93b49ce	c3cc67b1-dd30-490c-bd0d-03d76d46c843	2021-10-07 16:33:32.370322+00	2021-10-12 08:58:41.699+00	2ee20446-1c68-4b75-96f2-36c71ad32b38
+7cdacd88-5fcf-432e-acc1-4e9676eea8b7	83a31293-3fbc-4e32-8814-0421fae2b491	237451bc-067e-4c61-ae8d-9c5fe93b49ce	82540b0c-a1d9-4f33-ad0f-5e1809113e0f	2021-09-30 11:45:58.683825+00	2021-10-13 07:29:45.231+00	f79ab56d-8797-4769-8275-b4ef476737fe
 d1e9350d-85fe-4479-88d0-e2aaded7104d	83a31293-3fbc-4e32-8814-0421fae2b491	68db45ca-29ad-483d-b8e5-52b629d24d80	f12fbb00-c2f3-46ce-af2b-ee4c6ca14917	2021-09-30 11:45:54.783584+00	2021-10-05 07:06:39.607+00	65e56149-c55e-4bf9-83f4-3289f0fe6519
 2a7b0f41-6251-4e87-893d-7f7ffc704712	fec0af71-5541-40e1-93ad-033ad5fb2fa0	237451bc-067e-4c61-ae8d-9c5fe93b49ce	c60ff981-ccf1-4b99-a6c1-f95185d0f146	2021-10-07 16:15:20.682026+00	2021-10-07 16:17:58.771+00	a5cdbb41-1edc-4882-b3a6-6023d960891d
-d416fb14-6216-4820-ad80-fcc8b9d022b6	fec0af71-5541-40e1-93ad-033ad5fb2fa0	\N	394fe2f9-fbb3-423f-8116-eea3faedf7ba	2021-10-08 06:31:46.742562+00	\N	\N
-13ca5c83-24eb-496c-9b02-670995ee2b0e	fec0af71-5541-40e1-93ad-033ad5fb2fa0	\N	55338e40-9e16-4757-a886-f04798ff5868	2021-10-08 06:37:51.343589+00	\N	\N
+339722cb-4125-46f8-8d16-f54e0d903f84	fec0af71-5541-40e1-93ad-033ad5fb2fa0	\N	d11b5a64-7459-4a01-8f68-1c2b24d75607	2021-10-18 05:52:21.995723+00	\N	\N
 bfe27bad-96d1-4e06-acf5-daeb56f663a7	fec0af71-5541-40e1-93ad-033ad5fb2fa0	237451bc-067e-4c61-ae8d-9c5fe93b49ce	f50b4061-83ec-4f6d-b756-d7d80333e67c	2021-10-08 06:38:32.800112+00	2021-10-08 06:42:44.414+00	7e8e0739-3838-4f8e-bf98-be7c21e627fa
+0ad24948-b730-486d-b01b-f46163d6cd6c	fec0af71-5541-40e1-93ad-033ad5fb2fa0	\N	f9c19510-2469-4b2f-ad40-129105c596a8	2021-10-18 05:58:34.201455+00	\N	\N
 dd0cedea-db0a-4e79-98cd-ebe974a641da	fec0af71-5541-40e1-93ad-033ad5fb2fa0	237451bc-067e-4c61-ae8d-9c5fe93b49ce	9ec08e85-b834-426b-b296-0fcfa6755565	2021-10-08 06:38:15.765372+00	2021-10-08 06:44:07.52+00	40438add-8045-4799-aab5-ddf625a26458
 5465fd74-148c-43ab-8c8a-1a38e68c81b9	fec0af71-5541-40e1-93ad-033ad5fb2fa0	237451bc-067e-4c61-ae8d-9c5fe93b49ce	3030178b-8903-424d-a947-3710e87dcbeb	2021-10-08 06:46:58.918509+00	2021-10-08 06:50:47.109+00	3b62a967-bbca-4189-be1e-7ada77c502bf
 3d74ab36-556b-4438-a7f3-c3012f0b90ca	83a31293-3fbc-4e32-8814-0421fae2b491	237451bc-067e-4c61-ae8d-9c5fe93b49ce	f1d899db-c142-42e7-ad1a-82b6e53bbd93	2021-09-30 11:46:13.737927+00	2021-10-08 06:54:24.396+00	89ee5542-5549-439d-955c-5df047a3cc94
 7ea3d3df-7d37-4201-9c48-24c31b511617	fec0af71-5541-40e1-93ad-033ad5fb2fa0	237451bc-067e-4c61-ae8d-9c5fe93b49ce	e6a431a4-a223-41e1-9e1e-c624310b0265	2021-10-08 06:25:56.599006+00	2021-10-08 06:54:44.426+00	8358d6e2-7108-4f04-8078-6664fc551ff0
 e15a2406-c46e-476a-b8cf-fcdc0d93db10	fec0af71-5541-40e1-93ad-033ad5fb2fa0	237451bc-067e-4c61-ae8d-9c5fe93b49ce	34cc0e4e-3c0a-4839-a52b-7b70f0b00f7b	2021-10-08 06:33:48.204799+00	2021-10-08 06:56:04.575+00	45b90e74-d163-46cf-b0b6-281e9a022403
 61d6ab40-5344-4d7d-bc67-4fa4f71c0aa2	fec0af71-5541-40e1-93ad-033ad5fb2fa0	237451bc-067e-4c61-ae8d-9c5fe93b49ce	34810d13-42df-4a17-8ca7-ca63db238159	2021-10-08 06:53:23.243798+00	2021-10-08 06:56:23.832+00	249d139c-5c69-4a43-99eb-6222cf1a46d7
+27d59431-f25e-4e40-995d-be8008bf0f8e	fec0af71-5541-40e1-93ad-033ad5fb2fa0	237451bc-067e-4c61-ae8d-9c5fe93b49ce	dc214383-7717-453a-aa9b-ebeed937f500	2021-10-13 07:40:08.906464+00	2021-10-13 07:40:24.279+00	f33a9bba-32fa-4198-9301-5afa419bc3ef
+13ca5c83-24eb-496c-9b02-670995ee2b0e	fec0af71-5541-40e1-93ad-033ad5fb2fa0	237451bc-067e-4c61-ae8d-9c5fe93b49ce	55338e40-9e16-4757-a886-f04798ff5868	2021-10-08 06:37:51.343589+00	2021-10-12 08:53:35.276+00	68251ade-5ba9-49e2-997f-c2328b47a5a9
+e4f936d4-90ea-4ceb-a972-2be3b33c28f3	83a31293-3fbc-4e32-8814-0421fae2b491	237451bc-067e-4c61-ae8d-9c5fe93b49ce	31f438d0-2fa6-4e2a-af24-6a8d2556c0df	2021-10-18 09:10:49.18498+00	2021-10-18 09:20:58.066+00	04011c6a-5d9f-407c-9cdf-c376be7d6a2a
+d416fb14-6216-4820-ad80-fcc8b9d022b6	fec0af71-5541-40e1-93ad-033ad5fb2fa0	237451bc-067e-4c61-ae8d-9c5fe93b49ce	394fe2f9-fbb3-423f-8116-eea3faedf7ba	2021-10-08 06:31:46.742562+00	2021-10-12 08:58:01.534+00	d2687179-5582-4591-8e43-a8dcff96f90c
+7e4fa138-2690-4dbd-bb56-c017668b89aa	fec0af71-5541-40e1-93ad-033ad5fb2fa0	237451bc-067e-4c61-ae8d-9c5fe93b49ce	7bce8722-1dce-49c9-8c92-07c8e7aa8bff	2021-10-13 05:43:06.600173+00	2021-10-13 09:32:17.958+00	95067fec-2977-4b23-a7aa-e69493a3f472
+43515077-55bd-46e7-b0ef-572743208ceb	83a31293-3fbc-4e32-8814-0421fae2b491	237451bc-067e-4c61-ae8d-9c5fe93b49ce	5c7578ef-579a-4a5d-857a-ffd7a66942a1	2021-10-20 09:24:57.204391+00	2021-10-21 07:47:27.781+00	8715ab78-2240-4476-9abe-e9a5f6e75069
+5fd2b805-7237-4077-8c2a-7aeb3b3f4793	fec0af71-5541-40e1-93ad-033ad5fb2fa0	237451bc-067e-4c61-ae8d-9c5fe93b49ce	fc0e4ea2-42dc-4f6c-ba8b-f5b92a8fe39a	2021-10-13 07:30:56.144776+00	2021-10-13 09:32:36.629+00	face10e6-58f2-4c55-ab45-63cb2a29fed1
+e8ea1e7a-a73a-4a4a-965f-a7a1854d1269	fec0af71-5541-40e1-93ad-033ad5fb2fa0	237451bc-067e-4c61-ae8d-9c5fe93b49ce	b5745a46-48ff-430c-8cbc-b75d320c0105	2021-10-18 05:48:59.652838+00	2021-10-18 09:28:26.415+00	76f322dd-46cc-43d6-bddf-c39f88efa996
+79b4b376-d669-49f3-8d73-86d9e26ad0a5	fec0af71-5541-40e1-93ad-033ad5fb2fa0	237451bc-067e-4c61-ae8d-9c5fe93b49ce	64846f0c-9a16-4b42-82d6-a13aa303150f	2021-10-13 07:29:26.165262+00	2021-10-13 09:33:51.799+00	0e93f1e8-9baf-471e-bede-b315724df404
+afedd7bf-841f-4ea0-ab3e-d2f1572ac971	fec0af71-5541-40e1-93ad-033ad5fb2fa0	237451bc-067e-4c61-ae8d-9c5fe93b49ce	b0d81259-1e91-445a-a046-6fa8cbdda780	2021-10-12 08:59:17.830665+00	2021-10-12 08:59:51.742+00	9241c2cd-b328-4e45-8332-aee84d7012b3
+c776c1dd-8ed9-45fc-a3be-b8ead251b76e	fec0af71-5541-40e1-93ad-033ad5fb2fa0	237451bc-067e-4c61-ae8d-9c5fe93b49ce	42d9a10c-4baa-4948-969c-befc8727edf2	2021-10-12 09:00:08.083721+00	2021-10-12 09:00:49.677+00	4f102ba0-2b26-407d-a9dc-7292504a4e83
+93c2c599-fabc-4eff-a5c9-0b913c82c68f	83a31293-3fbc-4e32-8814-0421fae2b491	237451bc-067e-4c61-ae8d-9c5fe93b49ce	698100ab-0243-4b1c-ab2a-3ada95e27a80	2021-10-20 09:23:32.514458+00	2021-10-20 09:24:01.202+00	e319b5e0-9f6b-4399-9218-2f81e9202896
+99051466-0b90-4037-b129-365adad0b72f	83a31293-3fbc-4e32-8814-0421fae2b491	237451bc-067e-4c61-ae8d-9c5fe93b49ce	2c922dbd-983c-403f-b6f3-d784e1e162da	2021-10-18 09:10:17.490807+00	2021-10-19 08:45:23.853+00	cd8acdb9-9662-4bfc-b5c5-465a70384b49
+8abe4c7a-32ed-437e-a6dd-509fd18c2aa3	fec0af71-5541-40e1-93ad-033ad5fb2fa0	237451bc-067e-4c61-ae8d-9c5fe93b49ce	4b0ac357-a0a7-4018-80d4-0b8e086c3328	2021-10-13 09:34:25.366165+00	2021-10-13 09:36:05.082+00	fc75ff77-10bb-4fb6-bd91-0c8e45f057e1
+562abf5a-b645-4c9f-8c96-3895f748626e	fec0af71-5541-40e1-93ad-033ad5fb2fa0	237451bc-067e-4c61-ae8d-9c5fe93b49ce	85283ce2-4e3a-40c0-b4f1-941ffa4af65c	2021-10-13 05:42:30.929458+00	2021-10-13 05:45:36.544+00	60e33233-d41e-4c99-8200-636e117c53f9
+af5f9fd6-d110-438b-ba57-7be1304f7962	fec0af71-5541-40e1-93ad-033ad5fb2fa0	237451bc-067e-4c61-ae8d-9c5fe93b49ce	27568fc8-40a2-4352-95b3-e7d9902edd61	2021-10-13 05:42:13.090633+00	2021-10-13 05:48:41.317+00	3b0be3b4-6a58-42a3-94da-b52afd5e3189
+b88079f5-ab12-44a9-baf7-11147bfa51a8	fec0af71-5541-40e1-93ad-033ad5fb2fa0	\N	168182a9-4b7c-4fc8-8119-c53b670b5d10	2021-10-13 05:58:07.221906+00	\N	\N
+612dfac9-507c-4d05-9de2-9d3a3a1ef87d	fec0af71-5541-40e1-93ad-033ad5fb2fa0	\N	f5fa90bf-eff5-4321-b4a5-873894e31ea3	2021-10-13 06:00:36.495974+00	\N	\N
+23260232-555f-4492-a053-62c1251598b7	fec0af71-5541-40e1-93ad-033ad5fb2fa0	\N	c08c565a-b509-4a43-b8a3-3ea38c623937	2021-10-13 06:01:43.415931+00	\N	\N
+5d29125d-69ba-48e0-90ea-380d21503fd7	fec0af71-5541-40e1-93ad-033ad5fb2fa0	237451bc-067e-4c61-ae8d-9c5fe93b49ce	4c989b8d-f6be-40f6-b2cf-ed991b32d157	2021-10-13 07:28:59.337815+00	2021-10-15 08:56:32.604+00	a3231665-40ef-4b21-8b7c-160412d759f3
+50bf3f52-5e93-43ea-9e8d-c8f1e1f3ba98	fec0af71-5541-40e1-93ad-033ad5fb2fa0	237451bc-067e-4c61-ae8d-9c5fe93b49ce	aa33bc0d-ae0c-4817-bf30-146c0d08dbf5	2021-10-13 06:31:48.408041+00	2021-10-13 06:32:02.404+00	1fba885e-f096-4d8f-a7a1-591e68a22fde
+c5633ef2-1a42-4ef4-94d5-c4a01b6b6b0b	fec0af71-5541-40e1-93ad-033ad5fb2fa0	237451bc-067e-4c61-ae8d-9c5fe93b49ce	84400deb-4ec1-403e-8b37-a48bfca6b772	2021-10-13 06:31:46.330091+00	2021-10-13 06:32:25.65+00	26deb718-11ae-4abb-aa08-7877cc2f75ca
+30e3ca13-5bd5-4eff-8703-7f565f38cf92	fec0af71-5541-40e1-93ad-033ad5fb2fa0	\N	dfdd2965-c9d4-4b70-9d2a-132b99694763	2021-10-15 08:59:08.607126+00	\N	\N
+5fce63a9-8394-4aea-9d5a-5cc7cd6e15ff	fec0af71-5541-40e1-93ad-033ad5fb2fa0	237451bc-067e-4c61-ae8d-9c5fe93b49ce	bb034e28-a388-4436-9108-9c4512c38f71	2021-10-13 06:32:14.456852+00	2021-10-13 06:33:17.555+00	c52d09c4-005a-4e1d-97a6-1eb68d096ba5
+90738460-9f50-4851-80f3-e15f0770574c	fec0af71-5541-40e1-93ad-033ad5fb2fa0	\N	c72fffcf-6e33-4589-96fe-c4bc373e6585	2021-10-15 08:59:18.375024+00	\N	\N
+8030d654-3d12-456c-99f5-3fa3b84383fa	fec0af71-5541-40e1-93ad-033ad5fb2fa0	237451bc-067e-4c61-ae8d-9c5fe93b49ce	c91282ee-170a-4df3-81d9-9d20f5650c56	2021-10-13 06:06:44.42244+00	2021-10-13 06:38:54.135+00	201651c3-ec9e-4650-a1b7-ce23d1bdf195
+f33d015e-0939-4353-8f1f-e75349307297	fec0af71-5541-40e1-93ad-033ad5fb2fa0	\N	cbaf669b-e237-4aa5-be4f-a5df9a5176c6	2021-10-15 09:00:04.3151+00	\N	\N
+cc38b59d-1c00-4076-9282-7019ed6a2e2d	fec0af71-5541-40e1-93ad-033ad5fb2fa0	237451bc-067e-4c61-ae8d-9c5fe93b49ce	aa553e0a-8639-498a-bb2d-81299d27427d	2021-10-13 07:24:55.810633+00	2021-10-13 07:25:11.059+00	115e4dc8-1db2-4450-b223-cbd5eb1dd95e
+aba57c97-a89b-48d9-b076-f9ed2c11d68f	fec0af71-5541-40e1-93ad-033ad5fb2fa0	\N	41e813c0-6863-4562-8ff7-85b90982e4dc	2021-10-15 09:01:06.393821+00	\N	\N
+d513ab4d-bced-48b9-bb6c-23957b3016aa	fec0af71-5541-40e1-93ad-033ad5fb2fa0	237451bc-067e-4c61-ae8d-9c5fe93b49ce	33ad553f-0f7d-4993-acbf-bd0e88a0ff52	2021-10-15 09:03:17.745733+00	2021-10-16 12:21:39.814+00	7849bf16-458c-4175-aa9d-44e0cc1831ef
+f1348641-9283-49c5-ab25-3b985a3da539	fec0af71-5541-40e1-93ad-033ad5fb2fa0	\N	f518dcbe-7127-4a10-87ca-7403e3046162	2021-10-16 12:22:23.091929+00	\N	\N
+6449c070-0b25-4cd7-8fe7-2af1fed7f760	83a31293-3fbc-4e32-8814-0421fae2b491	\N	e2a4c413-fe18-4c9a-8078-4a8bc6021db0	2021-10-17 12:55:21.161882+00	\N	\N
+28b3d01f-c83a-42fd-ae98-58971f1e67c0	83a31293-3fbc-4e32-8814-0421fae2b491	\N	5ad08bab-32e0-4341-a55b-e941c2949f7b	2021-10-17 12:57:09.71349+00	\N	\N
+d70ce1f7-a776-4975-9527-8ac11d2310fc	83a31293-3fbc-4e32-8814-0421fae2b491	\N	caca2831-8e84-4732-ab25-434eec21f125	2021-10-17 12:59:29.300585+00	\N	\N
+4f873efa-244b-408e-bb40-3e458e44cff5	83a31293-3fbc-4e32-8814-0421fae2b491	\N	121e0ecc-8898-4744-a7a0-2bd0e7fd94f4	2021-10-17 13:01:21.446824+00	\N	\N
+478ecfdc-3ae9-4b1d-bfb2-d4d75a595336	83a31293-3fbc-4e32-8814-0421fae2b491	237451bc-067e-4c61-ae8d-9c5fe93b49ce	b110668f-65b3-42a3-a946-c2766b977d68	2021-10-17 13:03:04.621746+00	2021-10-17 13:05:13.758+00	eb460324-82db-4a70-8d26-e96382ae57cb
+d2856e01-9743-4886-b6c4-ae0a2465c2f3	fec0af71-5541-40e1-93ad-033ad5fb2fa0	\N	29b9bad4-f7d6-4f66-bbdd-b26c70e8731f	2021-10-18 05:49:49.938726+00	\N	\N
+c4e6a600-8cda-423d-b5fc-e61dac63697d	fec0af71-5541-40e1-93ad-033ad5fb2fa0	\N	0e665d2b-b77d-46f5-aba6-004c9e99fae7	2021-10-18 05:50:40.747394+00	\N	\N
+9a6a0f74-ea8c-42ba-9078-a8ccc1cac0f5	fec0af71-5541-40e1-93ad-033ad5fb2fa0	\N	c2c47178-f9f0-435c-a162-4d0a4f59017d	2021-10-18 05:51:20.338128+00	\N	\N
+51195c55-9af5-4609-97db-b08289bc3f80	83a31293-3fbc-4e32-8814-0421fae2b491	237451bc-067e-4c61-ae8d-9c5fe93b49ce	6a419ebf-77da-4324-9e23-afbc9ece6b3f	2021-10-19 09:12:11.12395+00	2021-10-19 09:13:22.849+00	295a424b-f1c7-4e51-ab92-377d88ca2ee8
+876de3c7-1bad-47b2-96d6-efb3b6e75c18	83a31293-3fbc-4e32-8814-0421fae2b491	237451bc-067e-4c61-ae8d-9c5fe93b49ce	8158fc58-d8e6-4687-9d98-fe29910551a8	2021-10-19 09:10:30.740305+00	2021-10-19 09:16:54.343+00	a3049b3d-7772-4fc2-91b8-906a40d98ebb
+36b07bd2-cd28-4a06-ab49-0214515e184a	83a31293-3fbc-4e32-8814-0421fae2b491	237451bc-067e-4c61-ae8d-9c5fe93b49ce	b8c42fc4-05e0-4c36-a3ff-e95f494ac19e	2021-10-19 09:10:24.732976+00	2021-10-19 09:18:24.002+00	119fd3d6-c8e3-4e34-8ce3-938809cdcd34
+dbb50996-af42-43bc-8c0f-6b624ca559e4	83a31293-3fbc-4e32-8814-0421fae2b491	237451bc-067e-4c61-ae8d-9c5fe93b49ce	5c16135c-0d99-48f4-9c75-589739d14639	2021-10-20 09:25:50.897452+00	2021-10-21 07:25:13.743+00	3bb336f0-591d-474e-8901-ac307763b0cb
+48c5df7a-b97a-4029-a934-53ae019fea35	fec0af71-5541-40e1-93ad-033ad5fb2fa0	237451bc-067e-4c61-ae8d-9c5fe93b49ce	e1c944b4-1688-4719-826c-3bcb1f3b7fbf	2021-10-13 05:53:56.428377+00	2021-10-20 16:28:29.38+00	a1bea9c8-03f5-4534-abb8-6f257cab8069
+5e9ae451-c821-48c7-83e6-ab3d73639004	fec0af71-5541-40e1-93ad-033ad5fb2fa0	237451bc-067e-4c61-ae8d-9c5fe93b49ce	e43d4f77-0f76-4808-9b76-ac56b6a43c16	2021-10-15 08:58:50.430875+00	2021-10-20 16:36:21.674+00	3a123c3d-c6f1-4ec6-a1b8-256b3167f854
+d2079534-f0b8-45bf-b606-46f0d7116831	83a31293-3fbc-4e32-8814-0421fae2b491	237451bc-067e-4c61-ae8d-9c5fe93b49ce	c03cd632-472f-4cfa-b135-3e9d7b873146	2021-10-20 09:25:10.418754+00	2021-10-21 07:34:25.341+00	1a197e2e-17c8-4f46-83b4-aab71067cb94
+158ffb53-7df2-4507-aa98-972da962ce54	83a31293-3fbc-4e32-8814-0421fae2b491	237451bc-067e-4c61-ae8d-9c5fe93b49ce	269635ff-79b5-488e-9029-cad56e896253	2021-10-20 09:24:13.882512+00	2021-10-21 07:52:37.22+00	f0ce4ae6-2a46-4df9-bf26-157235db276d
+49824c3d-5fcb-48c6-bbcd-da4484abcbf9	fec0af71-5541-40e1-93ad-033ad5fb2fa0	237451bc-067e-4c61-ae8d-9c5fe93b49ce	9b93278d-e6c5-4032-b9d8-f902ef0e01ea	2021-10-22 06:58:39.968204+00	2021-10-22 07:18:01.496+00	e0fc802c-b26b-45d0-8cc7-db265b52ccb1
+e3633708-cf21-4dd3-b1e9-624855a0df7e	fec0af71-5541-40e1-93ad-033ad5fb2fa0	237451bc-067e-4c61-ae8d-9c5fe93b49ce	05291328-a65c-4781-b3a3-d8f4e5212255	2021-10-22 06:58:24.735774+00	2021-10-22 07:19:43.547+00	1b990319-014c-45a0-91ef-85b895a04404
+e4d605df-b60a-4164-a3e2-99d21de1e79f	fec0af71-5541-40e1-93ad-033ad5fb2fa0	237451bc-067e-4c61-ae8d-9c5fe93b49ce	05923b0b-3607-4208-a201-afd1110eb7da	2021-10-22 07:21:24.5364+00	2021-10-22 07:21:38.216+00	6c06a6d0-6a74-4aed-a994-f49977959685
+2698df66-6e10-4899-9ef4-8704828a275e	fec0af71-5541-40e1-93ad-033ad5fb2fa0	237451bc-067e-4c61-ae8d-9c5fe93b49ce	5b883724-a085-4970-890a-78acaf649c87	2021-10-22 08:00:33.679824+00	2021-10-22 08:09:19.874+00	886e2b38-8923-4b2a-8f94-19852a5d5ae5
+6a121191-1226-4e0a-8d4b-849f36baad12	fec0af71-5541-40e1-93ad-033ad5fb2fa0	237451bc-067e-4c61-ae8d-9c5fe93b49ce	6aa3e9ae-83b0-4271-a68a-060a1b23c4c1	2021-10-21 11:36:38.693549+00	2021-10-22 08:21:42.591+00	e4487d33-36ea-43c3-9973-f08d90e34473
+5477a902-c599-464a-9c1f-3f635664e85f	83a31293-3fbc-4e32-8814-0421fae2b491	237451bc-067e-4c61-ae8d-9c5fe93b49ce	6ed84641-ee30-4557-8385-4c592cf512bc	2021-10-20 09:23:18.754554+00	2021-10-22 08:21:56.008+00	56ce53ad-b641-4d0a-b30b-96cde2bd206b
+55462723-c036-4969-8d46-a2e2ecb8f22e	fec0af71-5541-40e1-93ad-033ad5fb2fa0	237451bc-067e-4c61-ae8d-9c5fe93b49ce	cd8145bf-7d01-4baa-85a6-8a22ea0675c7	2021-10-22 09:17:11.829087+00	2021-10-22 09:17:18.97+00	22fb8302-5f61-4b04-96a5-d2162a2c29a3
+d211d352-e1ae-481d-bfd9-7280b06ef816	fec0af71-5541-40e1-93ad-033ad5fb2fa0	237451bc-067e-4c61-ae8d-9c5fe93b49ce	a51a63f2-8ba0-46d5-a478-c9137c38593e	2021-10-22 09:24:10.681672+00	2021-10-22 09:24:27.761+00	0c58a5dc-370d-4218-914e-cdc8f5da4427
+baeaa8ce-ef7e-430c-b68d-e994ba5606e8	fec0af71-5541-40e1-93ad-033ad5fb2fa0	237451bc-067e-4c61-ae8d-9c5fe93b49ce	a6391011-8f53-49dc-8c9e-7e01db5f0b20	2021-10-25 09:11:17.690216+00	2021-10-25 09:11:22.787+00	21287bc7-0bb7-4bac-9e56-77a922bb6a1d
 \.
 
 
@@ -2496,6 +2614,62 @@ e6a431a4-a223-41e1-9e1e-c624310b0265	93c67b22-5392-486e-8991-1d2d5cff0691	6b3b2f
 f50b4061-83ec-4f6d-b756-d7d80333e67c	93c67b22-5392-486e-8991-1d2d5cff0691	6b3b2f07-253a-4066-b5ca-96d93a149149	92ac2859-b516-4f09-8ac1-ac4709a807de	
 3030178b-8903-424d-a947-3710e87dcbeb	93c67b22-5392-486e-8991-1d2d5cff0691	6b3b2f07-253a-4066-b5ca-96d93a149149	0e5fdaf1-a3fc-4f88-b1d4-46c9731fdccb	
 34810d13-42df-4a17-8ca7-ca63db238159	93c67b22-5392-486e-8991-1d2d5cff0691	6b3b2f07-253a-4066-b5ca-96d93a149149	0e5fdaf1-a3fc-4f88-b1d4-46c9731fdccb	
+b0d81259-1e91-445a-a046-6fa8cbdda780	93c67b22-5392-486e-8991-1d2d5cff0691	6b3b2f07-253a-4066-b5ca-96d93a149149	0e5fdaf1-a3fc-4f88-b1d4-46c9731fdccb	
+42d9a10c-4baa-4948-969c-befc8727edf2	93c67b22-5392-486e-8991-1d2d5cff0691	6b3b2f07-253a-4066-b5ca-96d93a149149	0e5fdaf1-a3fc-4f88-b1d4-46c9731fdccb	
+27568fc8-40a2-4352-95b3-e7d9902edd61	93c67b22-5392-486e-8991-1d2d5cff0691	6b3b2f07-253a-4066-b5ca-96d93a149149	8bf7f508-9b7c-4c6b-bbb5-d860d23e30a1	
+85283ce2-4e3a-40c0-b4f1-941ffa4af65c	93c67b22-5392-486e-8991-1d2d5cff0691	6b3b2f07-253a-4066-b5ca-96d93a149149	8bf7f508-9b7c-4c6b-bbb5-d860d23e30a1	
+7bce8722-1dce-49c9-8c92-07c8e7aa8bff	93c67b22-5392-486e-8991-1d2d5cff0691	6b3b2f07-253a-4066-b5ca-96d93a149149	8bf7f508-9b7c-4c6b-bbb5-d860d23e30a1	
+e1c944b4-1688-4719-826c-3bcb1f3b7fbf	93c67b22-5392-486e-8991-1d2d5cff0691	6b3b2f07-253a-4066-b5ca-96d93a149149	0e5fdaf1-a3fc-4f88-b1d4-46c9731fdccb	
+168182a9-4b7c-4fc8-8119-c53b670b5d10	c34a3289-ce18-4c94-bf6e-1c213a1b191a	6b3b2f07-253a-4066-b5ca-96d93a149149	92ac2859-b516-4f09-8ac1-ac4709a807de	telechargement
+f5fa90bf-eff5-4321-b4a5-873894e31ea3	c34a3289-ce18-4c94-bf6e-1c213a1b191a	6b3b2f07-253a-4066-b5ca-96d93a149149	92ac2859-b516-4f09-8ac1-ac4709a807de	telechargement
+c08c565a-b509-4a43-b8a3-3ea38c623937	c34a3289-ce18-4c94-bf6e-1c213a1b191a	6b3b2f07-253a-4066-b5ca-96d93a149149	92ac2859-b516-4f09-8ac1-ac4709a807de	telechargement
+c91282ee-170a-4df3-81d9-9d20f5650c56	93c67b22-5392-486e-8991-1d2d5cff0691	6b3b2f07-253a-4066-b5ca-96d93a149149	0e5fdaf1-a3fc-4f88-b1d4-46c9731fdccb	
+84400deb-4ec1-403e-8b37-a48bfca6b772	93c67b22-5392-486e-8991-1d2d5cff0691	6b3b2f07-253a-4066-b5ca-96d93a149149	0e5fdaf1-a3fc-4f88-b1d4-46c9731fdccb	
+aa33bc0d-ae0c-4817-bf30-146c0d08dbf5	93c67b22-5392-486e-8991-1d2d5cff0691	6b3b2f07-253a-4066-b5ca-96d93a149149	0e5fdaf1-a3fc-4f88-b1d4-46c9731fdccb	
+bb034e28-a388-4436-9108-9c4512c38f71	93c67b22-5392-486e-8991-1d2d5cff0691	6b3b2f07-253a-4066-b5ca-96d93a149149	0e5fdaf1-a3fc-4f88-b1d4-46c9731fdccb	
+aa553e0a-8639-498a-bb2d-81299d27427d	93c67b22-5392-486e-8991-1d2d5cff0691	6b3b2f07-253a-4066-b5ca-96d93a149149	0e5fdaf1-a3fc-4f88-b1d4-46c9731fdccb	
+4c989b8d-f6be-40f6-b2cf-ed991b32d157	93c67b22-5392-486e-8991-1d2d5cff0691	6b3b2f07-253a-4066-b5ca-96d93a149149	0e5fdaf1-a3fc-4f88-b1d4-46c9731fdccb	
+64846f0c-9a16-4b42-82d6-a13aa303150f	93c67b22-5392-486e-8991-1d2d5cff0691	6b3b2f07-253a-4066-b5ca-96d93a149149	0e5fdaf1-a3fc-4f88-b1d4-46c9731fdccb	
+fc0e4ea2-42dc-4f6c-ba8b-f5b92a8fe39a	93c67b22-5392-486e-8991-1d2d5cff0691	6b3b2f07-253a-4066-b5ca-96d93a149149	0e5fdaf1-a3fc-4f88-b1d4-46c9731fdccb	
+dc214383-7717-453a-aa9b-ebeed937f500	93c67b22-5392-486e-8991-1d2d5cff0691	62255b2b-1028-4817-848b-2be1c74bd2fb	92ac2859-b516-4f09-8ac1-ac4709a807de	
+4b0ac357-a0a7-4018-80d4-0b8e086c3328	93c67b22-5392-486e-8991-1d2d5cff0691	6b3b2f07-253a-4066-b5ca-96d93a149149	0e5fdaf1-a3fc-4f88-b1d4-46c9731fdccb	
+e43d4f77-0f76-4808-9b76-ac56b6a43c16	93c67b22-5392-486e-8991-1d2d5cff0691	6b3b2f07-253a-4066-b5ca-96d93a149149	0e5fdaf1-a3fc-4f88-b1d4-46c9731fdccb	
+dfdd2965-c9d4-4b70-9d2a-132b99694763	93c67b22-5392-486e-8991-1d2d5cff0691	6b3b2f07-253a-4066-b5ca-96d93a149149	0e5fdaf1-a3fc-4f88-b1d4-46c9731fdccb	
+c72fffcf-6e33-4589-96fe-c4bc373e6585	93c67b22-5392-486e-8991-1d2d5cff0691	6b3b2f07-253a-4066-b5ca-96d93a149149	0e5fdaf1-a3fc-4f88-b1d4-46c9731fdccb	
+cbaf669b-e237-4aa5-be4f-a5df9a5176c6	93c67b22-5392-486e-8991-1d2d5cff0691	6b3b2f07-253a-4066-b5ca-96d93a149149	0e5fdaf1-a3fc-4f88-b1d4-46c9731fdccb	
+41e813c0-6863-4562-8ff7-85b90982e4dc	93c67b22-5392-486e-8991-1d2d5cff0691	6b3b2f07-253a-4066-b5ca-96d93a149149	0e5fdaf1-a3fc-4f88-b1d4-46c9731fdccb	
+33ad553f-0f7d-4993-acbf-bd0e88a0ff52	93c67b22-5392-486e-8991-1d2d5cff0691	6b3b2f07-253a-4066-b5ca-96d93a149149	0e5fdaf1-a3fc-4f88-b1d4-46c9731fdccb	
+f518dcbe-7127-4a10-87ca-7403e3046162	d8bf125f-5509-469f-8db3-f730fe588d98	6b3b2f07-253a-4066-b5ca-96d93a149149	0e5fdaf1-a3fc-4f88-b1d4-46c9731fdccb	
+e2a4c413-fe18-4c9a-8078-4a8bc6021db0	d8bf125f-5509-469f-8db3-f730fe588d98	6b3b2f07-253a-4066-b5ca-96d93a149149	0e5fdaf1-a3fc-4f88-b1d4-46c9731fdccb	
+5ad08bab-32e0-4341-a55b-e941c2949f7b	c34a3289-ce18-4c94-bf6e-1c213a1b191a	6b3b2f07-253a-4066-b5ca-96d93a149149	0e5fdaf1-a3fc-4f88-b1d4-46c9731fdccb	fb
+caca2831-8e84-4732-ab25-434eec21f125	c34a3289-ce18-4c94-bf6e-1c213a1b191a	6b3b2f07-253a-4066-b5ca-96d93a149149	0e5fdaf1-a3fc-4f88-b1d4-46c9731fdccb	fb
+121e0ecc-8898-4744-a7a0-2bd0e7fd94f4	c34a3289-ce18-4c94-bf6e-1c213a1b191a	6b3b2f07-253a-4066-b5ca-96d93a149149	0e5fdaf1-a3fc-4f88-b1d4-46c9731fdccb	fb
+b110668f-65b3-42a3-a946-c2766b977d68	c34a3289-ce18-4c94-bf6e-1c213a1b191a	6b3b2f07-253a-4066-b5ca-96d93a149149	0e5fdaf1-a3fc-4f88-b1d4-46c9731fdccb	fb
+b5745a46-48ff-430c-8cbc-b75d320c0105	93c67b22-5392-486e-8991-1d2d5cff0691	6b3b2f07-253a-4066-b5ca-96d93a149149	0e5fdaf1-a3fc-4f88-b1d4-46c9731fdccb	
+29b9bad4-f7d6-4f66-bbdd-b26c70e8731f	93c67b22-5392-486e-8991-1d2d5cff0691	6b3b2f07-253a-4066-b5ca-96d93a149149	0e5fdaf1-a3fc-4f88-b1d4-46c9731fdccb	
+0e665d2b-b77d-46f5-aba6-004c9e99fae7	93c67b22-5392-486e-8991-1d2d5cff0691	6b3b2f07-253a-4066-b5ca-96d93a149149	0e5fdaf1-a3fc-4f88-b1d4-46c9731fdccb	
+c2c47178-f9f0-435c-a162-4d0a4f59017d	93c67b22-5392-486e-8991-1d2d5cff0691	6b3b2f07-253a-4066-b5ca-96d93a149149	0e5fdaf1-a3fc-4f88-b1d4-46c9731fdccb	
+d11b5a64-7459-4a01-8f68-1c2b24d75607	93c67b22-5392-486e-8991-1d2d5cff0691	6b3b2f07-253a-4066-b5ca-96d93a149149	0e5fdaf1-a3fc-4f88-b1d4-46c9731fdccb	
+f9c19510-2469-4b2f-ad40-129105c596a8	93c67b22-5392-486e-8991-1d2d5cff0691	6b3b2f07-253a-4066-b5ca-96d93a149149	0e5fdaf1-a3fc-4f88-b1d4-46c9731fdccb	
+2c922dbd-983c-403f-b6f3-d784e1e162da	93c67b22-5392-486e-8991-1d2d5cff0691	6b3b2f07-253a-4066-b5ca-96d93a149149	8bf7f508-9b7c-4c6b-bbb5-d860d23e30a1	
+31f438d0-2fa6-4e2a-af24-6a8d2556c0df	93c67b22-5392-486e-8991-1d2d5cff0691	6b3b2f07-253a-4066-b5ca-96d93a149149	8bf7f508-9b7c-4c6b-bbb5-d860d23e30a1	
+b8c42fc4-05e0-4c36-a3ff-e95f494ac19e	93c67b22-5392-486e-8991-1d2d5cff0691	6b3b2f07-253a-4066-b5ca-96d93a149149	0e5fdaf1-a3fc-4f88-b1d4-46c9731fdccb	
+8158fc58-d8e6-4687-9d98-fe29910551a8	93c67b22-5392-486e-8991-1d2d5cff0691	6b3b2f07-253a-4066-b5ca-96d93a149149	0e5fdaf1-a3fc-4f88-b1d4-46c9731fdccb	
+6a419ebf-77da-4324-9e23-afbc9ece6b3f	93c67b22-5392-486e-8991-1d2d5cff0691	6b3b2f07-253a-4066-b5ca-96d93a149149	0e5fdaf1-a3fc-4f88-b1d4-46c9731fdccb	
+6ed84641-ee30-4557-8385-4c592cf512bc	93c67b22-5392-486e-8991-1d2d5cff0691	6b3b2f07-253a-4066-b5ca-96d93a149149	0e5fdaf1-a3fc-4f88-b1d4-46c9731fdccb	
+698100ab-0243-4b1c-ab2a-3ada95e27a80	93c67b22-5392-486e-8991-1d2d5cff0691	6b3b2f07-253a-4066-b5ca-96d93a149149	0e5fdaf1-a3fc-4f88-b1d4-46c9731fdccb	
+269635ff-79b5-488e-9029-cad56e896253	93c67b22-5392-486e-8991-1d2d5cff0691	6b3b2f07-253a-4066-b5ca-96d93a149149	0e5fdaf1-a3fc-4f88-b1d4-46c9731fdccb	
+5c7578ef-579a-4a5d-857a-ffd7a66942a1	93c67b22-5392-486e-8991-1d2d5cff0691	6b3b2f07-253a-4066-b5ca-96d93a149149	0e5fdaf1-a3fc-4f88-b1d4-46c9731fdccb	
+c03cd632-472f-4cfa-b135-3e9d7b873146	93c67b22-5392-486e-8991-1d2d5cff0691	6b3b2f07-253a-4066-b5ca-96d93a149149	0e5fdaf1-a3fc-4f88-b1d4-46c9731fdccb	
+5c16135c-0d99-48f4-9c75-589739d14639	93c67b22-5392-486e-8991-1d2d5cff0691	6b3b2f07-253a-4066-b5ca-96d93a149149	92ac2859-b516-4f09-8ac1-ac4709a807de	
+6aa3e9ae-83b0-4271-a68a-060a1b23c4c1	93c67b22-5392-486e-8991-1d2d5cff0691	6b3b2f07-253a-4066-b5ca-96d93a149149	0e5fdaf1-a3fc-4f88-b1d4-46c9731fdccb	
+05291328-a65c-4781-b3a3-d8f4e5212255	d8bf125f-5509-469f-8db3-f730fe588d98	6b3b2f07-253a-4066-b5ca-96d93a149149	0e5fdaf1-a3fc-4f88-b1d4-46c9731fdccb	
+9b93278d-e6c5-4032-b9d8-f902ef0e01ea	d8bf125f-5509-469f-8db3-f730fe588d98	6b3b2f07-253a-4066-b5ca-96d93a149149	0e5fdaf1-a3fc-4f88-b1d4-46c9731fdccb	
+05923b0b-3607-4208-a201-afd1110eb7da	c34a3289-ce18-4c94-bf6e-1c213a1b191a	6b3b2f07-253a-4066-b5ca-96d93a149149	92ac2859-b516-4f09-8ac1-ac4709a807de	Facebook
+5b883724-a085-4970-890a-78acaf649c87	c34a3289-ce18-4c94-bf6e-1c213a1b191a	6b3b2f07-253a-4066-b5ca-96d93a149149	92ac2859-b516-4f09-8ac1-ac4709a807de	Facebook
+cd8145bf-7d01-4baa-85a6-8a22ea0675c7	93c67b22-5392-486e-8991-1d2d5cff0691	6b3b2f07-253a-4066-b5ca-96d93a149149	0e5fdaf1-a3fc-4f88-b1d4-46c9731fdccb	
+a51a63f2-8ba0-46d5-a478-c9137c38593e	93c67b22-5392-486e-8991-1d2d5cff0691	6b3b2f07-253a-4066-b5ca-96d93a149149	0e5fdaf1-a3fc-4f88-b1d4-46c9731fdccb	
+a6391011-8f53-49dc-8c9e-7e01db5f0b20	93c67b22-5392-486e-8991-1d2d5cff0691	6b3b2f07-253a-4066-b5ca-96d93a149149	8bf7f508-9b7c-4c6b-bbb5-d860d23e30a1	
 \.
 
 
@@ -2561,6 +2735,7 @@ f8663c49-9cf6-4d85-a86b-7a3a4612e5c6	6b3b2f07-253a-4066-b5ca-96d93a149149		adca1
 b4a0f9e7-79a1-4b47-9c62-27700f6d708b	6b3b2f07-253a-4066-b5ca-96d93a149149		3b426db1-7b60-4ba8-acf0-2eeafe63e3dc
 5ec09807-a138-4b08-acd1-bfb1a1833ecf	6b3b2f07-253a-4066-b5ca-96d93a149149		3b426db1-7b60-4ba8-acf0-2eeafe63e3dc
 df6eb9c0-3378-49ac-8d75-ca54527592d6	6b3b2f07-253a-4066-b5ca-96d93a149149		3b426db1-7b60-4ba8-acf0-2eeafe63e3dc
+d771003d-3fd3-4d84-a59a-c2551aacc5d2	6b3b2f07-253a-4066-b5ca-96d93a149149	\N	876fa019-baaf-4687-8f49-82635e0bc510
 \.
 
 
@@ -3403,7 +3578,7 @@ GRANT ALL ON TABLE public.view_notification_tech_main_probleme_full TO acim;
 GRANT ALL ON TABLE public.view_notification_user_probleme_full TO acim;
 
 
--- Completed on 2021-10-08 14:23:35
+-- Completed on 2021-10-25 12:28:24
 
 --
 -- PostgreSQL database dump complete
